@@ -4,12 +4,745 @@
   
     
     <entry>
+      <title>测试文章</title>
+      <link href="/2022/10/18/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/10/18/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/10/18/hello-world/"/>
       <url>/2022/10/18/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML</title>
+      <link href="/2022/10/18/HTML-html/"/>
+      <url>/2022/10/18/HTML-html/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>HTML（超文本标记语言）是一种用于创建网页的标准标记语言。 HTML 不需要编译，可以直接由浏览器执行，它的解析依赖于浏览器的内核。 它不是一种编程语言，而是一种标记语言。</p><h3 id="常见状态码"><a href="#常见状态码" class="headerlink" title="常见状态码"></a>常见状态码</h3><ul><li>200 ：成功。</li><li>400 ：客户端请求有语法错误，服务器端不能理解。</li><li>401 ：该请求可能未经过授权。</li><li>403 ：服务器端收到该请求，但是拒绝为它提供服务，可能是没有权限等等。</li><li>404 ：该资源没找到。</li><li>500 ：服务器端发生了一个不可预知的错误。</li><li>503 ：服务器端当前还不能处理客户端的这个请求，可能过段时间之后才能恢复正常。</li></ul><h1 id="HTML-常用标签"><a href="#HTML-常用标签" class="headerlink" title="HTML 常用标签"></a>HTML 常用标签</h1><ul><li>HTML 标签</li><li>HTML 元素</li><li>HTML 常见标签</li><li>容器标签</li><li>HTML 列表</li><li>HTML 样式</li></ul><h2 id="HTML-标签"><a href="#HTML-标签" class="headerlink" title="HTML 标签"></a>HTML 标签</h2><p>双标签（双标记）<br>单标签（单标记）</p><h2 id="HTML-元素"><a href="#HTML-元素" class="headerlink" title="HTML 元素"></a>HTML 元素</h2><p>HTML 元素指的是从开始标签（start tag）到结束标签（end tag）的所有代码。</p><p>例子：</p><p>I Love You</p>元素内容是：I Love You<h2 id="HTML-常见标签"><a href="#HTML-常见标签" class="headerlink" title="HTML 常见标签"></a>HTML 常见标签</h2><ul><li>h 系类标签<br>h 标签有六种 h1，h2，h3，h4，h5，h6，它代表着我们的标题。</li><li>p 标签<br>p 标签是我们的文本标签。删掉上段代码 <body> 标签里的内容，把下面的内容放到 <body> 标签里面去。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">* 图片标签</span><br><span class="line">HTML 的图像是通过标签 &lt;img&gt; 来定义的。 语法: &lt;img src=&quot;图片地址&quot;/&gt; 。</span><br><span class="line">* a 标签</span><br><span class="line">&lt;a&gt; 标签是超链接标签，意思就是我们点击它可以跳转到一个网页。</span><br><span class="line">* div 标签</span><br><span class="line">&lt;div&gt; 标签是一个块级元素，块级元素占据其父元素（容器）的整个空间，你可以把它想成一个盒子。 &lt;div&gt; 能够设置其宽高，后面我们会讲到。</span><br><span class="line">* 换行标签和空格字符</span><br><span class="line">在浏览器显示页面时，浏览器会移除源代码中多余的空格和空行，所有连续的空格或空行都会被认为是一个空格。如果希望在不产生一个新段落的情况下换行，可以使用 &lt;br/&gt; 标签。如果想使用空格的话可以使用 &amp;nbsp; 字符。</span><br></pre></td></tr></table></figure></li><li>水平分割线<hr/> 标签用于在 HTML 页面中创建一条水平线。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Note For LanqiaoYunke</title>
+      <link href="/2022/10/16/Note%20For%20LanqiaoYunke-noteforlanqiaoyunke/"/>
+      <url>/2022/10/16/Note%20For%20LanqiaoYunke-noteforlanqiaoyunke/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol><li>vi模式下按y复制某行，按p粘贴，u恢复</li><li>:99,107s&#x2F;8&#x2F;❤&#x2F;g</li></ol><ul><li>: 进入底行命令模式</li><li>99,107 行的范围内</li><li>s 替换</li><li>8 被替换模式</li><li>❤ 替换为的模式</li><li>g 全局替换(不止一次替换)</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲言碎语 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文件字符分布</title>
+      <link href="/2022/10/15/%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83-%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83/"/>
+      <url>/2022/10/15/%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83-%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="文件字符分布"><a href="#文件字符分布" class="headerlink" title="文件字符分布"></a>文件字符分布</h1><p>统计附件文件的小写字母a-z的字符分布，即出现a-z字符的数量，并输出结果。‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‭‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬</p><p>同时请输出文件一共包含的字符数量。‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‭‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬</p><p>注意输出格式，各元素之间用英文逗号（,）分隔。‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‭‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬</p><p>答案可能包含a-z共26个字符的分布，如果某个字符没有出现，则不显示，输出顺序a-z顺序。‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‭‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬</p><p>输入输出格式：这是仅给出输出格式样例，不是结果。‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‭‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬</p><ul><li>输出示例‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‭‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">共999字符,a:11,b:22,c:33,d:44,e:55</span><br></pre></td></tr></table></figure></li></ul><h2 id="参考代码"><a href="#参考代码" class="headerlink" title="参考代码"></a>参考代码</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">f = open(&quot;latex.log&quot;)</span><br><span class="line">cc = 0</span><br><span class="line">d = &#123;&#125;</span><br><span class="line">for i in range(26):</span><br><span class="line">    d[chr(ord(&#x27;a&#x27;)+i)] = 0</span><br><span class="line">for line in f:</span><br><span class="line">    for c in line:</span><br><span class="line">        d[c] = d.get(c, 0) + 1</span><br><span class="line">        cc += 1</span><br><span class="line">print(&quot;共&#123;&#125;字符&quot;.format(cc), end=&quot;&quot;)</span><br><span class="line">for i in range(26):</span><br><span class="line">    if d[chr(ord(&#x27;a&#x27;)+i)] != 0:</span><br><span class="line">        print(&quot;,&#123;&#125;:&#123;&#125;&quot;.format(chr(ord(&#x27;a&#x27;)+i), d[chr(ord(&#x27;a&#x27;)+i)]), end=&quot;&quot;)</span><br></pre></td></tr></table></figure><ul><li>使用 ord(‘a’)+i 配合 range()函数 可以遍历一个连续的字符表。</li></ul><h2 id="自写"><a href="#自写" class="headerlink" title="自写"></a>自写</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">with open(&#x27;latex.log&#x27;, &#x27;r&#x27;, encoding=&#x27;utf-8&#x27;) as f:</span><br><span class="line">    a = f.read()</span><br><span class="line">    #a = f.readline()</span><br><span class="line">    #a = f.readlines()</span><br><span class="line">dict_=&#123;&#125;</span><br><span class="line">count=0</span><br><span class="line">for i in a:</span><br><span class="line">    count += 1</span><br><span class="line">    if &#x27;a&#x27; &lt;= i &lt;= &#x27;z&#x27;:</span><br><span class="line">        if i in dict_.keys():</span><br><span class="line">            dict_[i]+=1</span><br><span class="line">        else:</span><br><span class="line">            dict_[i]=1</span><br><span class="line"></span><br><span class="line">dict_sort = sorted(dict_.items(),key=lambda x:x[0])</span><br><span class="line"></span><br><span class="line">b = dict(dict_sort)</span><br><span class="line">string_=&#x27;&#x27;</span><br><span class="line">for i in b.keys():</span><br><span class="line">    string_ += &#x27;&#123;&#125;:&#123;&#125;,&#x27;.format(i,b[i])</span><br><span class="line">print(&#x27;共%d字符,&#x27;%count+string_[:-1])</span><br></pre></td></tr></table></figure><ul><li><h2 id="记录："><a href="#记录：" class="headerlink" title="记录："></a>记录：</h2></li></ul><ol><li><p><a href="https://liangszu.xyz/archives/readreadlinereadlines-he-zhi-jie-forlineinf-qu-bie">read,readline,readlines和直接for line in f:区别</a></p></li><li><p>判断单个字符是否是小写字母</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if &#x27;a&#x27; &lt;= i &lt;= &#x27;z&#x27;:</span><br></pre></td></tr></table></figure><p>(在C语言等高级语言中，字符之间的减运算都是支持的，但是python不然，在python中直接进行字符减运算是不被允许的。)</p></li><li><p>end&#x3D;’,’，最后会有一个多余的逗号的处理</p></li></ol><p>1）先定义空字符串，然后将向输入的内容后面添加逗号，并连接起来，最后输出：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">s = &#x27;&#x27;</span><br><span class="line">for i in range(100, 110):</span><br><span class="line">    s  += &#x27;&#123;&#125;,&#x27;.format(i)</span><br><span class="line"></span><br><span class="line">print(s[:-1])</span><br></pre></td></tr></table></figure><p>2）定义列表，然后将其要输出的内容存入该列表，最后通过join函数采用逗号连接即可：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">s = []</span><br><span class="line">for i in range(100, 110):</span><br><span class="line">    s.append(str(i))</span><br><span class="line">print(&#x27;,&#x27;.join(s))</span><br></pre></td></tr></table></figure><p>注意：i要用str转化成字符</p><ol start="3"><li><p>sort和sorted区别</p></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> 题目 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>正则表达式</title>
+      <link href="/2022/10/11/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-zheng-ze-biao-da-shi/"/>
+      <url>/2022/10/11/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-zheng-ze-biao-da-shi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="1-分享链接提取"><a href="#1-分享链接提取" class="headerlink" title="1. 分享链接提取"></a>1. 分享链接提取</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import re</span><br><span class="line">string = &quot;0.76 TYm:/ 去保定用200元开美食盲盒，看看小城市200元消费力如何。# 跟着抖音去探店# 抖音美食推荐官 # 美食探店# 二百者也 https://v.douyin.com/MY4pbpJ/ 复制此链接，打开Dou音搜索，直接观看视频！&quot;</span><br><span class="line">url = re.findall(</span><br><span class="line">    &#x27;http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&amp;+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+&#x27;, string)</span><br><span class="line"></span><br><span class="line">print(url)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>numpy.loadtxt()读取txt文件</title>
+      <link href="/2022/10/10/numpy.loadtxt()%E8%AF%BB%E5%8F%96txt%E6%96%87%E4%BB%B6-numpyloadtxt-du-qu-txt-wen-jian/"/>
+      <url>/2022/10/10/numpy.loadtxt()%E8%AF%BB%E5%8F%96txt%E6%96%87%E4%BB%B6-numpyloadtxt-du-qu-txt-wen-jian/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a = numpy.loadtxt(filename, dtype=, comments=&#x27;#&#x27;, delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0）</span><br></pre></td></tr></table></figure><p>filename: txt文件名及其地址<br>dtype:数据类型，int或者float<br>comment&#x3D;‘#’：如果行的开头为#就会跳过该行<br>delimiter：数据之间的分隔符,如使用逗号”,”<br>converters：对数据进行预处理<br>skiprows&#x3D;n：指跳过前n行<br>usecols&#x3D;[0,2]：是指只使用0,2两列，参数类型为list<br>unpack:指会把每一列当成一个向量输出, 而不是合并在一起。 如果unpack为false或者参数的话<br>ndmin:</p><ol><li>简单的读取</li></ol><p>test.txt</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 2 3 4 </span><br><span class="line">2 3 4 5</span><br><span class="line">3 4 5 6</span><br><span class="line">4 5 6 7</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">a = np.loadtxt(&#x27;test.txt&#x27;)#最普通的loadtxt</span><br><span class="line">print(a)</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>输出：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[[1. 2. 3. 4.]</span><br><span class="line"> [2. 3. 4. 5.]</span><br><span class="line"> [3. 4. 5. 6.]</span><br><span class="line"> [4. 5. 6. 7.]]</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>数组中的数都为浮点数，原因为Python默认的数字的数据类型为双精度浮点数</p><p>2、skiprows&#x3D;n：指跳过前n行</p><p>test.txt</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">A B C D</span><br><span class="line">2 3 4 5</span><br><span class="line">3 4 5 6</span><br><span class="line">4 5 6 7</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = np.loadtxt(&#x27;test.txt&#x27;, skiprows=1, dtype=int)</span><br><span class="line">print(a)</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>输出：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[[2 3 4 5]</span><br><span class="line"> [3 4 5 6]</span><br><span class="line"> [4 5 6 7]]</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>3、comment&#x3D;‘#’：如果行的开头为#就会跳过该行</p><p>test.txt</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">A B C D</span><br><span class="line">2 3 4 5</span><br><span class="line">3 4 5 6</span><br><span class="line">#A B C D</span><br><span class="line">4 5 6 7</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = np.loadtxt(&#x27;test.txt&#x27;, skiprows=1, dtype=int, comments=&#x27;#&#x27;)</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><p>输出：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[[2 3 4 5]</span><br><span class="line"> [3 4 5 6]</span><br><span class="line"> [4 5 6 7]]</span><br></pre></td></tr></table></figure><p>4、usecols&#x3D;[0,2]：是指只使用0,2两列，参数类型为list</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = np.loadtxt(&#x27;test.txt&#x27;, skiprows=1, dtype=int, comments=&#x27;#&#x27;,usecols=(0, 2), unpack=True)</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><p>输出：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[[2 3 4]</span><br><span class="line"> [4 5 6]]</span><br></pre></td></tr></table></figure><p>unpack是指会把每一列当成一个向量输出, 而不是合并在一起。 如果unpack为false或者参数的话输出结果如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[[2 4]</span><br><span class="line"> [3 5]</span><br><span class="line"> [4 6]]</span><br></pre></td></tr></table></figure><p>test.txt</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">A, B, C, D</span><br><span class="line">2, 3, 4, 5</span><br><span class="line">3, 4, 5, 6</span><br><span class="line">#A B C D</span><br><span class="line">4, 5, 6, 7</span><br></pre></td></tr></table></figure><p>5、delimiter：数据之间的分隔符。如使用逗号”,”。<br>text.txt</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1,2</span><br><span class="line">3,4</span><br></pre></td></tr></table></figure><p>6、converters：对数据进行预处理</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">def add_one(x):</span><br><span class="line">    return int(x)+1    #注意到这里使用的字符的数据结构</span><br><span class="line">a = np.loadtxt(&#x27;test.txt&#x27;, dtype=int, skiprows=1, converters=&#123;0:add_one&#125;, comments=&#x27;#&#x27;, delimiter=&#x27;,&#x27;, usecols=(0, 2), unpack=True)</span><br><span class="line">print a</span><br><span class="line"></span><br><span class="line">def add_one(x):</span><br><span class="line">    return int(x)+1    #注意到这里使用的字符的数据结构</span><br><span class="line">a = np.loadtxt(&#x27;test.txt&#x27;, dtype=int, skiprows=1, converters=&#123;0:add_one&#125;, comments=&#x27;#&#x27;, delimiter=&#x27;,&#x27;, usecols=(0, 2), unpack=True)</span><br><span class="line">print a</span><br></pre></td></tr></table></figure><p>以上就是numpy.loadtxt() 读取txt文件的几种方法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python_Matplotlib </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Matplotlib</title>
+      <link href="/2022/10/10/Matplotlib-matplotlib/"/>
+      <url>/2022/10/10/Matplotlib-matplotlib/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>第一个Matplotlib绘图程序</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">from matplotlib import pyplot as plt #导入 Matplotlib 包中的 Pyplot 模块，并以 as 别名的形式简化引入包的名称</span><br><span class="line">import numpy as np</span><br><span class="line">import math</span><br><span class="line">#调用math.pi方法弧度转为角度</span><br><span class="line">x = np.arange(0, math.pi*2, 0.05)  #使用 NumPy 提供的函数 arange() 创建一组数据</span><br><span class="line">y = np.sin(x)</span><br><span class="line">plt.plot(x,y)</span><br><span class="line">plt.xlabel(&quot;angle&quot;)</span><br><span class="line">plt.ylabel(&quot;sine&quot;)</span><br><span class="line">plt.title(&#x27;sine wave&#x27;)</span><br><span class="line">#使用show展示图像</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>11</title>
+      <link href="/2022/10/08/11-11/"/>
+      <url>/2022/10/08/11-11/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">acme.sh --issue -d *.szuer.cloud -d szuer.cloud --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please</span><br><span class="line"></span><br><span class="line">dig -t txt  _acme-challenge.szuer.cloud @8.8.8.8</span><br><span class="line"></span><br><span class="line">acme.sh --renew  -d *.szuer.cloud -d szuer.cloud --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>天猫精灵+Sakura Frp+OpenWrt实现语音开机</title>
+      <link href="/2022/10/05/%E5%A4%A9%E7%8C%AB%E7%B2%BE%E7%81%B5+Sakura%20Frp+OpenWrt%E5%AE%9E%E7%8E%B0%E8%AF%AD%E9%9F%B3%E5%BC%80%E6%9C%BA-tian-mao-jing-ling-yu-yin-kai-ji/"/>
+      <url>/2022/10/05/%E5%A4%A9%E7%8C%AB%E7%B2%BE%E7%81%B5+Sakura%20Frp+OpenWrt%E5%AE%9E%E7%8E%B0%E8%AF%AD%E9%9F%B3%E5%BC%80%E6%9C%BA-tian-mao-jing-ling-yu-yin-kai-ji/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>效果展示：<a href="https://www.bilibili.com/video/BV1Ze4y1J7AB/?vd_source=406d2201e9eee3154cf1cdbf32ede537">https://www.bilibili.com/video/BV1Ze4y1J7AB/?vd_source=406d2201e9eee3154cf1cdbf32ede537</a><br>Sakura frp使用，参考<a href="https://liangszu.xyz/archives/openwrt-pei-he-sakurafrp-shi-xian-yuan-cheng-kai-ji">OpenWrt配合Sakura Frp实现远程开机</a><br>天猫精灵开发者平台使用，参考<a href="https://developer.aliyun.com/article/882859">https://developer.aliyun.com/article/882859</a><br>替换代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/python</span><br><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line">import logging</span><br><span class="line">import json</span><br><span class="line">import base64</span><br><span class="line"></span><br><span class="line">import requests</span><br><span class="line">import re</span><br><span class="line">import paramiko  # 导入paramiko模块</span><br><span class="line"></span><br><span class="line">def handler(event, context):</span><br><span class="line">    request = json.loads(event)</span><br><span class="line">    logger = logging.getLogger()</span><br><span class="line">    body = base64.b64decode(request[&#x27;body&#x27;]).decode()</span><br><span class="line">    data = json.loads(body)</span><br><span class="line">    logger.info(data)</span><br><span class="line">    # 在收到唤醒的请求后，直接进入ecs_mem_free()函数</span><br><span class="line">    replydata = ecs_mem_free()</span><br><span class="line"></span><br><span class="line">    response = &#123;</span><br><span class="line">        &quot;isBase64Encoded&quot;: &quot;false&quot;,</span><br><span class="line">        &quot;statusCode&quot;: &quot;200&quot;,</span><br><span class="line">        &quot;headers&quot;: &#123;&quot;content-type&quot;: &quot;application/json&quot;&#125;,</span><br><span class="line">        &quot;body&quot;: &#123;</span><br><span class="line">            &quot;returnCode&quot;: &quot;0&quot;,</span><br><span class="line">            &quot;returnErrorSolution&quot;: &quot;&quot;,</span><br><span class="line">            &quot;returnMessage&quot;: &quot;&quot;,</span><br><span class="line">            &quot;returnValue&quot;: &#123;</span><br><span class="line">                &quot;reply&quot;: replydata,  # 返回结果</span><br><span class="line">                &quot;resultType&quot;: &quot;RESULT&quot;,</span><br><span class="line">                &quot;executeCode&quot;: &quot;SUCCESS&quot;,</span><br><span class="line">                &quot;msgInfo&quot;: &quot;&quot;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return response</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def ecs_mem_free():</span><br><span class="line">    url = &quot;https://api.natfrp.com/v1/pc/poweron?token=p63xqglrhn7hc9iocgldacbb9mkincg7&amp;pc=3152&quot;</span><br><span class="line"></span><br><span class="line">    str_pat = re.compile(r&#x27;b\&#x27;&#123;\&quot;success\&quot;:(.*),&#x27;)  # 匹配引号包裹的任意文本，并编译</span><br><span class="line"></span><br><span class="line">    text = str(requests.get(url).text.encode(&quot;utf-8&quot;))</span><br><span class="line">    result = str_pat.findall(text)</span><br><span class="line">    list_str = &#x27; &#x27;.join(result)</span><br><span class="line">    if (list_str == &#x27;true&#x27;):</span><br><span class="line">        return (&#x27;成功开机&#x27;)</span><br><span class="line">print(ecs_mem_free())</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python字符串转码</title>
+      <link href="/2022/10/05/Python%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E7%A0%81-python-zi-fu-chuan-zhuan-ma/"/>
+      <url>/2022/10/05/Python%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E7%A0%81-python-zi-fu-chuan-zhuan-ma/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>查看字符串编码格式:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import chardet</span><br><span class="line">a = &#x27;a&#x27;</span><br><span class="line">print(chardet.detect(a)）</span><br></pre></td></tr></table></figure><p>ascii编码的字符串可以直接进行encode转utf-8:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a.encode(&#x27;utf-8&#x27;)</span><br></pre></td></tr></table></figure><p>gbk编码字符串转utf-8格式的编码字符串:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a.decode(&#x27;gbk&#x27;).encode(&#x27;utf-8&#x27;)</span><br></pre></td></tr></table></figure><p>将字符串打印成你需要的格式:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">b=u&#x27;中文&#x27;</span><br><span class="line">print b.encode(&#x27;unicode-escape&#x27;)</span><br></pre></td></tr></table></figure><p>结果:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\u4e2d\u6587</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line">import chardet</span><br><span class="line"></span><br><span class="line">url = &quot;https://api.natfrp.com/v1/pc/poweron?token=p63xqglrhn7hc9iocgldacbb9mkincg7&amp;pc=3152&quot;</span><br><span class="line">text = requests.get(url).text</span><br><span class="line"></span><br><span class="line">text2 = &#x27;&#123;\&#x27;success&quot;:true,&quot;message&quot;:&quot;WOL \u8bf7\u6c42\u6210\u529f\&#x27;&#125;&#x27;</span><br><span class="line">str_pat=re.compile(r&#x27;&#123;\&#x27;success&quot;:(.*),&#x27;)   # 匹配引号包裹的任意文本，并编译</span><br><span class="line"></span><br><span class="line">text3 = str(text.encode(&quot;utf-8&quot;))</span><br><span class="line"></span><br><span class="line">print(text)</span><br><span class="line">print(text2)</span><br><span class="line">print(text3)</span><br><span class="line"></span><br><span class="line">print(chardet.detect(str.encode(text)))</span><br><span class="line">print(chardet.detect(str.encode(text2)))</span><br><span class="line">print(chardet.detect(str.encode(text3)))</span><br><span class="line"></span><br><span class="line">print(type(text))</span><br><span class="line">print(type(text2))</span><br><span class="line">print(type(text3))</span><br><span class="line"></span><br><span class="line">print(str_pat.findall(text))</span><br><span class="line">print(str_pat.findall(text2))</span><br><span class="line">print(str_pat.findall(text3))</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OpenWrt端口转发+Alist+阿里云盘 实现校园内部网可访问的私人网盘[深圳大学]</title>
+      <link href="/2022/10/05/OpenWrt%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91+Alist+%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%20%E5%AE%9E%E7%8E%B0%E6%A0%A1%E5%9B%AD%E5%86%85%E9%83%A8%E7%BD%91%E5%8F%AF%E8%AE%BF%E9%97%AE%E7%9A%84%E7%A7%81%E4%BA%BA%E7%BD%91%E7%9B%98%5B%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%5D-openwrt-duan-kou-zhuan-fa-alist-a-li-yun-pan-shi-xian-xiao-yuan-nei-bu-wang-ke-fang-wen-de-si-ren-wang-pan/"/>
+      <url>/2022/10/05/OpenWrt%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91+Alist+%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%20%E5%AE%9E%E7%8E%B0%E6%A0%A1%E5%9B%AD%E5%86%85%E9%83%A8%E7%BD%91%E5%8F%AF%E8%AE%BF%E9%97%AE%E7%9A%84%E7%A7%81%E4%BA%BA%E7%BD%91%E7%9B%98%5B%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%5D-openwrt-duan-kou-zhuan-fa-alist-a-li-yun-pan-shi-xian-xiao-yuan-nei-bu-wang-ke-fang-wen-de-si-ren-wang-pan/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="有感："><a href="#有感：" class="headerlink" title="有感："></a>有感：</h1><p>一直苦于校园网没有公网ip，然而某天上课无聊玩手机时，无意间用手机ping了一下宿舍路由器的ip，发现可以ping通，一时激动万分想出了很多好玩的点子，但是ping只是ICMP协议，不能直接判断校园网没有AP隔离，于是回去用nmap扫了一下发现开放了53、80、443等端口，于是该教程诞生。</p><ul><li>缺点：①只能在接入校园内部网的设备上访问<br />②学校工作日晚上断电，第二天设备重连之后会被重新分配ip</li><li>优点：①可以在内部网实现大文件高速传输<br />②可以直接挂载<strong>物理硬盘</strong>和阿里云盘等多种网盘</li><li><img src="/upload/2022/10/image-1664960169853.png" alt="image-1664960169853"></li></ul><h2 id="Alist是什么？"><a href="#Alist是什么？" class="headerlink" title="Alist是什么？"></a>Alist是什么？</h2><ul><li>一款支持多种存储的目录文件列表程序，支持 web 浏览与 webdav，后端基于gin，前端使用react<br>详情移步<a href="https://alist-doc.nn.ci/docs/intro/">Alist官方文档</a></li></ul><h1 id="Alist安装"><a href="#Alist安装" class="headerlink" title="Alist安装"></a>Alist安装</h1><ul><li>Linux-x86_64&#x2F;aarch64平台直接安装<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL &quot;https://alist.nn.ci/v2.sh&quot; | bash -s install</span><br></pre></td></tr></table></figure></li><li>Docker版安装（OpenWrt推荐）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name=&quot;alist&quot; xhofe/alist:latest</span><br></pre></td></tr></table></figure></li></ul><h1 id="Alist使用"><a href="#Alist使用" class="headerlink" title="Alist使用"></a>Alist使用</h1><ul><li>alist默认使用端口5244，访问<a href="http://localhost:5244/">http://localhost:5244</a>即可进入管理后台</li><li>初始密码请查看日志输出：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker logs alist</span><br><span class="line"># 或者</span><br><span class="line">docker exec -it alist ./alist -password</span><br></pre></td></tr></table></figure></li><li>按照<a href="https://alist-doc.nn.ci/docs/driver/aliyundrive">官方文档</a>挂载阿里云盘<br><img src="/upload/2022/10/image-1664958882283.png" alt="image-1664958882283"></li></ul><h1 id="OpenWrt设置端口转发"><a href="#OpenWrt设置端口转发" class="headerlink" title="OpenWrt设置端口转发"></a>OpenWrt设置端口转发</h1><ul><li>使用python脚本获取OpenWrt设备内部网ip<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import re</span><br><span class="line"> </span><br><span class="line">import requests</span><br><span class="line"> </span><br><span class="line">url = &quot;https://www1.szu.edu.cn/nc/speedtest/&quot;</span><br><span class="line"> </span><br><span class="line">response = requests.get(url).text</span><br><span class="line">content = response.encode(&quot;iso-8859-1&quot;).decode(&#x27;gbk&#x27;)</span><br><span class="line"> </span><br><span class="line">pattern = re.compile(&#x27;(?&lt;=&lt;p&gt;　您的ＩＰ：&lt;font color=&quot;#D00000&quot;&gt;).*?(?=&lt;/font&gt;&lt;/p&gt;)&#x27;)</span><br><span class="line">result = pattern.search(content).group()</span><br><span class="line">print(result)</span><br></pre></td></tr></table></figure></li><li>使用nmap扫描发现默认打开端口有53、80、443、5000、9090<br><img src="/upload/2022/10/image.png" alt="image"></li><li>在OpenWrt设置将5224端口转发至80端口</li><li>结束</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 校园 </category>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python单线程与多线程对比</title>
+      <link href="/2022/09/26/Python%E5%8D%95%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%AF%B9%E6%AF%94-python-dan-xian-cheng-yu-duo-xian-cheng-dui-bi/"/>
+      <url>/2022/09/26/Python%E5%8D%95%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%AF%B9%E6%AF%94-python-dan-xian-cheng-yu-duo-xian-cheng-dui-bi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="blog-spider-py"><a href="#blog-spider-py" class="headerlink" title="blog_spider.py"></a>blog_spider.py</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import requests</span><br><span class="line"></span><br><span class="line">urls = [</span><br><span class="line">    f&#x27;https://www.cnblogs.com/#p&#123;page&#125;&#x27;</span><br><span class="line">    for page in range(1, 50 +1)</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">def craw(url):</span><br><span class="line">    r = requests.get(url)</span><br><span class="line">    print(url,len(r.text))</span><br><span class="line"></span><br><span class="line">craw(urls[0])</span><br></pre></td></tr></table></figure><h1 id="multi-thread-craw-py"><a href="#multi-thread-craw-py" class="headerlink" title="multi_thread_craw.py"></a>multi_thread_craw.py</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">import threading</span><br><span class="line">import time</span><br><span class="line">import blog_spider</span><br><span class="line"></span><br><span class="line">def single_thread():</span><br><span class="line">    print(&#x27;single_thread begin&#x27;)</span><br><span class="line">    for url in blog_spider.urls:</span><br><span class="line">        blog_spider.craw(url)</span><br><span class="line">    print(&#x27;single_thread begin&#x27;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def multi_thread():</span><br><span class="line">    print(&#x27;multi_thread begin&#x27;)</span><br><span class="line">    threads = []</span><br><span class="line">    for url in blog_spider.urls:</span><br><span class="line">        threads.append(</span><br><span class="line">            threading.Thread(target=blog_spider.craw, args=(url,))    #url后面逗号不能少</span><br><span class="line">        )</span><br><span class="line">    print(&#x27;multi_thread begin&#x27;)</span><br><span class="line"></span><br><span class="line">    for thread in threads:</span><br><span class="line">        thread.start()</span><br><span class="line"></span><br><span class="line">    for thread in threads:</span><br><span class="line">        thread.join()</span><br><span class="line"></span><br><span class="line">if  __name__==&quot;__main__&quot;:</span><br><span class="line">    start = time.time()</span><br><span class="line">    single_thread()</span><br><span class="line">    end = time.time()</span><br><span class="line">    print(&quot;single_thread cost:&quot;,end-start,&#x27;second&#x27;)</span><br><span class="line"></span><br><span class="line">    start = time.time()</span><br><span class="line">    multi_thread()</span><br><span class="line">    end = time.time()</span><br><span class="line">    print(&quot;multi_thread cost:&quot;, end - start, &#x27;second&#x27;)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br></pre></td><td class="code"><pre><span class="line">E:\Desktop\Python\Learning\venv\Scripts\python.exe E:\Desktop\Python\Learning\多线程\multi_thread_craw.py </span><br><span class="line">https://www.cnblogs.com/#p1 69340</span><br><span class="line">single_thread begin</span><br><span class="line">https://www.cnblogs.com/#p1 69340</span><br><span class="line">https://www.cnblogs.com/#p2 69340</span><br><span class="line">https://www.cnblogs.com/#p3 69340</span><br><span class="line">https://www.cnblogs.com/#p4 69340</span><br><span class="line">https://www.cnblogs.com/#p5 69340</span><br><span class="line">https://www.cnblogs.com/#p6 69340</span><br><span class="line">https://www.cnblogs.com/#p7 69340</span><br><span class="line">https://www.cnblogs.com/#p8 69340</span><br><span class="line">https://www.cnblogs.com/#p9 69340</span><br><span class="line">https://www.cnblogs.com/#p10 69340</span><br><span class="line">https://www.cnblogs.com/#p11 69340</span><br><span class="line">https://www.cnblogs.com/#p12 69340</span><br><span class="line">https://www.cnblogs.com/#p13 69340</span><br><span class="line">https://www.cnblogs.com/#p14 69340</span><br><span class="line">https://www.cnblogs.com/#p15 69340</span><br><span class="line">https://www.cnblogs.com/#p16 69340</span><br><span class="line">https://www.cnblogs.com/#p17 69340</span><br><span class="line">https://www.cnblogs.com/#p18 69340</span><br><span class="line">https://www.cnblogs.com/#p19 69340</span><br><span class="line">https://www.cnblogs.com/#p20 69340</span><br><span class="line">https://www.cnblogs.com/#p21 69340</span><br><span class="line">https://www.cnblogs.com/#p22 69340</span><br><span class="line">https://www.cnblogs.com/#p23 69340</span><br><span class="line">https://www.cnblogs.com/#p24 69340</span><br><span class="line">https://www.cnblogs.com/#p25 69340</span><br><span class="line">https://www.cnblogs.com/#p26 69340</span><br><span class="line">https://www.cnblogs.com/#p27 69340</span><br><span class="line">https://www.cnblogs.com/#p28 69340</span><br><span class="line">https://www.cnblogs.com/#p29 69340</span><br><span class="line">https://www.cnblogs.com/#p30 69340</span><br><span class="line">https://www.cnblogs.com/#p31 69340</span><br><span class="line">https://www.cnblogs.com/#p32 69340</span><br><span class="line">https://www.cnblogs.com/#p33 69340</span><br><span class="line">https://www.cnblogs.com/#p34 69340</span><br><span class="line">https://www.cnblogs.com/#p35 69340</span><br><span class="line">https://www.cnblogs.com/#p36 69340</span><br><span class="line">https://www.cnblogs.com/#p37 69340</span><br><span class="line">https://www.cnblogs.com/#p38 69340</span><br><span class="line">https://www.cnblogs.com/#p39 69340</span><br><span class="line">https://www.cnblogs.com/#p40 69340</span><br><span class="line">https://www.cnblogs.com/#p41 69340</span><br><span class="line">https://www.cnblogs.com/#p42 69340</span><br><span class="line">https://www.cnblogs.com/#p43 69340</span><br><span class="line">https://www.cnblogs.com/#p44 69340</span><br><span class="line">https://www.cnblogs.com/#p45 69340</span><br><span class="line">https://www.cnblogs.com/#p46 69340</span><br><span class="line">https://www.cnblogs.com/#p47 69340</span><br><span class="line">https://www.cnblogs.com/#p48 69340</span><br><span class="line">https://www.cnblogs.com/#p49 69340</span><br><span class="line">https://www.cnblogs.com/#p50 69340</span><br><span class="line">single_thread begin</span><br><span class="line">single_thread cost: 12.724835872650146 second</span><br><span class="line">multi_thread begin</span><br><span class="line">multi_thread begin</span><br><span class="line">https://www.cnblogs.com/#p2 69340</span><br><span class="line">https://www.cnblogs.com/#p3 69340</span><br><span class="line">https://www.cnblogs.com/#p11 69340</span><br><span class="line">https://www.cnblogs.com/#p6 69340</span><br><span class="line">https://www.cnblogs.com/#p15 69340</span><br><span class="line">https://www.cnblogs.com/#p8 69340</span><br><span class="line">https://www.cnblogs.com/#p12 69340</span><br><span class="line">https://www.cnblogs.com/#p7 69340</span><br><span class="line">https://www.cnblogs.com/#p18 69340</span><br><span class="line">https://www.cnblogs.com/#p29https://www.cnblogs.com/#p30 69340 </span><br><span class="line">69340https://www.cnblogs.com/#p10 69340</span><br><span class="line"></span><br><span class="line">https://www.cnblogs.com/#p19 69340https://www.cnblogs.com/#p23 69340</span><br><span class="line"></span><br><span class="line">https://www.cnblogs.com/#p20https://www.cnblogs.com/#p21 69340</span><br><span class="line"> 69340</span><br><span class="line">https://www.cnblogs.com/#p17 69340https://www.cnblogs.com/#p16 69340https://www.cnblogs.com/#p4 </span><br><span class="line">69340</span><br><span class="line"></span><br><span class="line">https://www.cnblogs.com/#p14 69340</span><br><span class="line">https://www.cnblogs.com/#p9 69340</span><br><span class="line">https://www.cnblogs.com/#p34https://www.cnblogs.com/#p5 69340https://www.cnblogs.com/#p24 69340</span><br><span class="line"> </span><br><span class="line">69340</span><br><span class="line">https://www.cnblogs.com/#p13 69340</span><br><span class="line">https://www.cnblogs.com/#p39https://www.cnblogs.com/#p27 69340</span><br><span class="line"> 69340</span><br><span class="line">https://www.cnblogs.com/#p38 69340</span><br><span class="line">https://www.cnblogs.com/#p40 69340</span><br><span class="line">https://www.cnblogs.com/#p44 69340</span><br><span class="line">https://www.cnblogs.com/#p33 69340</span><br><span class="line">https://www.cnblogs.com/#p31 69340</span><br><span class="line">https://www.cnblogs.com/#p28 69340</span><br><span class="line">https://www.cnblogs.com/#p37https://www.cnblogs.com/#p41  69340</span><br><span class="line">69340https://www.cnblogs.com/#p45 69340</span><br><span class="line"></span><br><span class="line">https://www.cnblogs.com/#p26 69340</span><br><span class="line">https://www.cnblogs.com/#p49 69340</span><br><span class="line">https://www.cnblogs.com/#p43 69340</span><br><span class="line">https://www.cnblogs.com/#p35 69340</span><br><span class="line">https://www.cnblogs.com/#p42 69340https://www.cnblogs.com/#p50 69340</span><br><span class="line"></span><br><span class="line">https://www.cnblogs.com/#p46 69340</span><br><span class="line">https://www.cnblogs.com/#p22 69340</span><br><span class="line">https://www.cnblogs.com/#p47 69340</span><br><span class="line">https://www.cnblogs.com/#p48 69340</span><br><span class="line">https://www.cnblogs.com/#p32 69340</span><br><span class="line">https://www.cnblogs.com/#p1 69340</span><br><span class="line">https://www.cnblogs.com/#p25 69340</span><br><span class="line">https://www.cnblogs.com/#p36 69340</span><br><span class="line">multi_thread cost: 0.44167590141296387 second</span><br><span class="line"></span><br><span class="line">进程已结束,退出代码0</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+          <category> Python并发 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>深大内部网查询ip+配合Pushplus实现微信推送</title>
+      <link href="/2022/09/20/%E6%B7%B1%E5%A4%A7%E5%86%85%E9%83%A8%E7%BD%91%E6%9F%A5%E8%AF%A2ip+%E9%85%8D%E5%90%88Pushplus%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%8E%A8%E9%80%81-cha-xun-ip/"/>
+      <url>/2022/09/20/%E6%B7%B1%E5%A4%A7%E5%86%85%E9%83%A8%E7%BD%91%E6%9F%A5%E8%AF%A2ip+%E9%85%8D%E5%90%88Pushplus%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%8E%A8%E9%80%81-cha-xun-ip/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>无推送</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import re</span><br><span class="line"></span><br><span class="line">import requests</span><br><span class="line"></span><br><span class="line">url = &quot;https://www1.szu.edu.cn/nc/speedtest/&quot;</span><br><span class="line"></span><br><span class="line">response = requests.get(url).text</span><br><span class="line">content = response.encode(&quot;iso-8859-1&quot;).decode(&#x27;gbk&#x27;)</span><br><span class="line"></span><br><span class="line">pattern = re.compile(&#x27;(?&lt;=&lt;p&gt;　您的ＩＰ：&lt;font color=&quot;#D00000&quot;&gt;).*?(?=&lt;/font&gt;&lt;/p&gt;)&#x27;)</span><br><span class="line">result = pattern.search(content).group()</span><br><span class="line">print(result)</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Pushplus推送</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import re</span><br><span class="line"></span><br><span class="line">import requests</span><br><span class="line"></span><br><span class="line">url = &quot;https://www1.szu.edu.cn/nc/speedtest/&quot;</span><br><span class="line"></span><br><span class="line">response = requests.get(url).text</span><br><span class="line">content = response.encode(&quot;iso-8859-1&quot;).decode(&#x27;gbk&#x27;)</span><br><span class="line"></span><br><span class="line">pattern = re.compile(&#x27;(?&lt;=&lt;p&gt;　您的ＩＰ：&lt;font color=&quot;#D00000&quot;&gt;).*?(?=&lt;/font&gt;&lt;/p&gt;)&#x27;)</span><br><span class="line">result = pattern.search(content).group()</span><br><span class="line">resp = &quot;http://www.pushplus.plus/send?token=c7b16fa2863e40469a93eb123f461369&amp;title=YourIP&amp;content=&#123;&#125;&amp;template=html&quot;.format(result)</span><br><span class="line">a = requests.get(resp).text</span><br><span class="line">print(a)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> 校园 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>爬取豆瓣top250</title>
+      <link href="/2022/09/18/%E7%88%AC%E5%8F%96%E8%B1%86%E7%93%A3top250-pa-qu-dou-ban-top250/"/>
+      <url>/2022/09/18/%E7%88%AC%E5%8F%96%E8%B1%86%E7%93%A3top250-pa-qu-dou-ban-top250/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">import csv</span><br><span class="line"></span><br><span class="line">import requests</span><br><span class="line">import re</span><br><span class="line"></span><br><span class="line">def paqu(i):</span><br><span class="line"></span><br><span class="line">    url = str(&#x27;https://movie.douban.com/top250?start=&#x27; + str(i) + &#x27;&amp;filter=&#x27;)</span><br><span class="line"></span><br><span class="line">    #url = &quot;https://www1.szu.edu.cn/board/infolist.asp&quot;</span><br><span class="line"></span><br><span class="line">#    url = &quot;https://movie.douban.com/top250?start=0&amp;filter=&quot;</span><br><span class="line"></span><br><span class="line">    header = &#123;</span><br><span class="line">        &quot;User-Agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36&quot;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    resp = requests.get(url, headers=header)</span><br><span class="line">    page_content = resp.text</span><br><span class="line">    &#x27;&#x27;&#x27;print(page_content)&#x27;&#x27;&#x27;</span><br><span class="line"></span><br><span class="line">    #解析数据</span><br><span class="line">    obj = re.compile(r&#x27;&lt;li&gt;.*?&lt;span class=&quot;title&quot;&gt;(?P&lt;name&gt;.*?)&lt;/span&gt;.*?&lt;p class=&quot;&quot;&gt;.*?&#x27;</span><br><span class="line">                     r&#x27;&lt;span property=&quot;v:best&quot; content=&quot;(?P&lt;score&gt;.*?)&quot;&gt;.*?&#x27;</span><br><span class="line">                     r&#x27;&lt;span&gt;(?P&lt;num&gt;.*?)人评价&lt;/span&gt;&#x27;,re.S)</span><br><span class="line"></span><br><span class="line">    #print(page_content)</span><br><span class="line">    result = obj.finditer(page_content)</span><br><span class="line">    print(result)</span><br><span class="line">    f = open(&quot;data.csv&quot;,mode=&quot;a&quot;)  #打开文件，写模式</span><br><span class="line">    csvwrite = csv.writer(f)</span><br><span class="line"></span><br><span class="line">    for it in result:</span><br><span class="line">        #print(it.group(&quot;name&quot;))</span><br><span class="line">        #print(it.group(&quot;score&quot;))</span><br><span class="line">       # print(it.group(&quot;year&quot;).strip())  #.strip()去除年份前空格</span><br><span class="line">       # print(it.group(&quot;num&quot;))</span><br><span class="line">        dic = it.groupdict()</span><br><span class="line">        #dic[&#x27;year&#x27;] = dic[&#x27;year&#x27;].strip()</span><br><span class="line">        csvwrite.writerow(dic.values())</span><br><span class="line"></span><br><span class="line">    f.close()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">for i in range(0,250,25):</span><br><span class="line">    paqu(i)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pycharm小技巧</title>
+      <link href="/2022/09/16/Pycharm%E5%B0%8F%E6%8A%80%E5%B7%A7-pycharm-xiao-ji-qiao/"/>
+      <url>/2022/09/16/Pycharm%E5%B0%8F%E6%8A%80%E5%B7%A7-pycharm-xiao-ji-qiao/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Shift+F10运行main.py<br>Ctrl+Shift+F10运行正在编辑的py</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>函数和lambda表达式</title>
+      <link href="/2022/09/16/%E5%87%BD%E6%95%B0%E5%92%8Clambda%E8%A1%A8%E8%BE%BE%E5%BC%8F-han-shu-he-lambda-biao-da-shi/"/>
+      <url>/2022/09/16/%E5%87%BD%E6%95%B0%E5%92%8Clambda%E8%A1%A8%E8%BE%BE%E5%BC%8F-han-shu-he-lambda-biao-da-shi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>null</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python字符串相关</title>
+      <link href="/2022/09/16/Python%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3-python-zi-fu-chuan-chang-yong-fang-fa/"/>
+      <url>/2022/09/16/Python%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3-python-zi-fu-chuan-chang-yong-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="字符串的换行"><a href="#字符串的换行" class="headerlink" title="字符串的换行"></a>字符串的换行</h2><p>Python 不是格式自由的语言，它对程序的换行、缩进都有严格的语法要求。要想换行书写一个比较长的字符串，必须在行尾添加反斜杠\，请看下面的例子：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s2 = &#x27;It took me six months to write this Python tutorial. \</span><br><span class="line">    Please give me more support. \</span><br><span class="line">    I will keep it updated.&#x27;</span><br></pre></td></tr></table></figure><p>上面 s2 字符串的比较长，所以使用了转义字符\对字符串内容进行了换行，这样就可以把一个长字符串写成多行。</p><p>另外，Python 也支持表达式的换行，例如：<br>纯文本复制</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">num = 20 + 3 / 4 + \</span><br><span class="line">    2 * 3</span><br><span class="line">print(num)</span><br></pre></td></tr></table></figure><h2 id="print-函数高级用法"><a href="#print-函数高级用法" class="headerlink" title="print()函数高级用法"></a>print()函数高级用法</h2><h3 id="改变默认的分隔符"><a href="#改变默认的分隔符" class="headerlink" title="改变默认的分隔符"></a>改变默认的分隔符</h3><p>使用 print() 函数输出多个变量时，print() 函数默认以空格隔开多个变量，如果读者希望改变默认的分隔符，可通过 sep 参数进行设置。例如输出语句：<br>纯文本复制</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#同时输出多个变量和字符串，指定分隔符</span><br><span class="line">print(&quot;读者名：&quot; ,user_name,&quot;年龄：&quot;,user_age,sep=&#x27;|&#x27;)</span><br></pre></td></tr></table></figure><p>运行结果</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">读者名：|Charlie|年龄：|8</span><br></pre></td></tr></table></figure><h3 id="让print-函数输出之后不换行"><a href="#让print-函数输出之后不换行" class="headerlink" title="让print() 函数输出之后不换行"></a>让print() 函数输出之后不换行</h3><p>在默认情况下，print() 函数输出之后总会换行，这是因为 print() 函数的 end 参数的默认值是“\n”，这个“\n”就代表了换行。如果希望 print() 函数输出之后不会换行，则重设 end 参数即可，例如如下代码：<br>#设置end 参数，指定输出之后不再换行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;abc&#x27;,end=&#x27;&#x27;)</span><br><span class="line">print(&#x27;xyz&#x27;)</span><br></pre></td></tr></table></figure><p>输出结果：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">abcxyz</span><br></pre></td></tr></table></figure><h3 id="让-print-函数输出到特定文件中"><a href="#让-print-函数输出到特定文件中" class="headerlink" title="让 print() 函数输出到特定文件中"></a>让 print() 函数输出到特定文件中</h3><p>例如如下代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">f = open(&quot;demo.txt&quot;,&quot;w&quot;)#打开文件以便写入</span><br><span class="line">print(&#x27;沧海月明珠有泪&#x27;,file=f)</span><br><span class="line">print(&#x27;蓝回日暖玉生烟&#x27;,file=f)</span><br><span class="line">f.close()</span><br></pre></td></tr></table></figure><p>open() 函数用于打开 demo.txt 文件，接连 2 个 print 函数会将这 2 段字符串依次写入此文件，最后调用 close() 函数关闭文件</p><h2 id="Python格式化字符串（格式化输出）"><a href="#Python格式化字符串（格式化输出）" class="headerlink" title="Python格式化字符串（格式化输出）"></a>Python格式化字符串（格式化输出）</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学习路线</title>
+      <link href="/2022/09/16/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF-qqq/"/>
+      <url>/2022/09/16/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF-qqq/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>爬虫其实是个杂学，涉及的知识点比较广，不仅仅是 Python 的范畴了，学习路线是以下：</p><ol><li>先打好 Python 基础，至少学到函数、文件读写、异常处理</li><li>前端知识，包括 html、js（如果是爬静态网站，那 js 不怎么重要，了解一下即可，如果是爬动态网站，js 一定得会，不然爬不到数据）</li><li>一点网络基础，包括请求体、响应体（爬虫相关教程都会讲这个东西）</li><li>之后就是学习 Python 第三方库的使用，爬一些中小网站用 requests 库，会用到上面 123 所有知识点</li><li>如果数据量比较大（1w 条以上），那最好学一下数据库存储，sqlite、mysql、mongodb 随便哪一个都可以</li><li>到后期爬大型网站用 Scrapy 框架（如果用到 Scrapy 框架，那 Python 至少要学到类与对象）</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OpenWrt配合Sakura Frp实现远程开机</title>
+      <link href="/2022/09/09/OpenWrt%E9%85%8D%E5%90%88Sakura%20Frp%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E5%BC%80%E6%9C%BA-openwrt-pei-he-sakurafrp-shi-xian-yuan-cheng-kai-ji/"/>
+      <url>/2022/09/09/OpenWrt%E9%85%8D%E5%90%88Sakura%20Frp%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E5%BC%80%E6%9C%BA-openwrt-pei-he-sakurafrp-shi-xian-yuan-cheng-kai-ji/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>前情:<br>本人尝试在华硕ACRH-17路由器下安装openwrt并使用WOL实现远程开机，但是失败了，不知道是openwrt防火墙配置原因还是其他，wol唤醒数据包无法发送至电脑，百般尝试之下最终选择了Sakura Frp远程开机方案。</p><p>条件：刷入openwrt的路由器<br>           1RMB（用于Sakura Frp实名注册）</p><h1 id="一、注册Sakura-Frp"><a href="#一、注册Sakura-Frp" class="headerlink" title="一、注册Sakura Frp"></a>一、注册Sakura Frp</h1><p>打开官网并注册<a href="https://www.natfrp.com/">Sakura Frp官网</a></p><h1 id="二、创建隧道"><a href="#二、创建隧道" class="headerlink" title="二、创建隧道"></a>二、创建隧道</h1><p>点击“穿透-隧道列表”→点击“创建隧道”→选择”普通节点-中国内地“→随便选择一个可用节点（选择国内节点时要进行实名注册要花费1元，按指示注册即可）→隧道类型选择”WOL隧道“→创建<br><img src="/upload/2022/09/image.png" alt="image"></p><h1 id="三、添加计算机"><a href="#三、添加计算机" class="headerlink" title="三、添加计算机"></a>三、添加计算机</h1><p>点击“穿透-远程开机”→点击“添加计算机”→填入电脑MAC<br><img src="/upload/2022/09/image-1662722864289.png" alt="image-1662722864289"></p><h1 id="四、下载对应版本Sakura-Frp"><a href="#四、下载对应版本Sakura-Frp" class="headerlink" title="四、下载对应版本Sakura Frp"></a>四、下载对应版本Sakura Frp</h1><p>在Sakura Frp官网找到适合自己设备的软件包并下载，x86的OpenWrt选择amd64版本，其他的路由器根据CPU架构选择<br><img src="/upload/2022/09/image-1662723058256.png" alt="image-1662723058256"><br>例如我的是arm v7架构<br><img src="/upload/2022/09/image-1662723247625.png" alt="image-1662723247625"><br>则选择<img src="/upload/2022/09/image-1662723257744.png" alt="image-1662723257744"><br>armv7版本</p><h1 id="五、在OpenWrt安装Sakura-Frp"><a href="#五、在OpenWrt安装Sakura-Frp" class="headerlink" title="五、在OpenWrt安装Sakura Frp"></a>五、在OpenWrt安装Sakura Frp</h1><p>将下载好的软件包该名成natfrpc并上传至OpenWrt的&#x2F;sbin目录下<br><img src="/upload/2022/09/image-1662723426035.png" alt="image-1662723426035"><br>↓<br><img src="/upload/2022/09/image-1662723511882.png" alt="image-1662723511882"></p><p>ssh输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod a+wx /sbin/natfrpc # 修改可执行权限和可写权限(用于更新)</span><br></pre></td></tr></table></figure><h1 id="六、设置开机自启"><a href="#六、设置开机自启" class="headerlink" title="六、设置开机自启"></a>六、设置开机自启</h1><p>创建一个名为 &#x2F;etc&#x2F;init.d&#x2F;natfrpc 的文件，内容如下（请注意修改下面的启动参数）：<br>只需要将“&lt;您的隧道启动参数&gt;”改为“访问密钥:隧道ID”即可</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh /etc/rc.common</span><br><span class="line"></span><br><span class="line">USE_PROCD=1</span><br><span class="line">START=90</span><br><span class="line"></span><br><span class="line">start_service() &#123;</span><br><span class="line">    ####### 第一条隧道 #######</span><br><span class="line">    procd_open_instance SakuraFrp</span><br><span class="line">    procd_set_param command /sbin/natfrpc</span><br><span class="line"></span><br><span class="line">    procd_append_param command -f &lt;您的隧道启动参数&gt; --update # 请修改此行为您的隧道启动参数，同时可添加远程控制隧道启停等配置</span><br><span class="line"> </span><br><span class="line">    procd_set_param env LANG=zh_CN.UTF-8 # 用于显示中文日志，删除即显示英文日志</span><br><span class="line">    procd_set_param limits nofile=&quot;unlimited&quot;</span><br><span class="line">    procd_set_param respawn 300 5 10</span><br><span class="line">    procd_set_param stdout 1</span><br><span class="line">    procd_set_param stderr 1</span><br><span class="line">    procd_add_jail natfrp log</span><br><span class="line">    procd_close_instance</span><br><span class="line"></span><br><span class="line">    ####### 第二条隧道 #######</span><br><span class="line">    procd_open_instance SakuraFrp2 # 注意这里的名字是 SakuraFrp2，后面有个数字编号</span><br><span class="line">    procd_set_param command /sbin/natfrpc</span><br><span class="line"></span><br><span class="line">    procd_append_param command -f &lt;另外一个启动参数&gt; --update # 请修改此行为您的隧道启动参数，同时可添加远程控制隧道启停等配置</span><br><span class="line"> </span><br><span class="line">    procd_set_param env LANG=zh_CN.UTF-8 # 用于显示中文日志，删除即显示英文日志</span><br><span class="line">    procd_set_param limits nofile=&quot;unlimited&quot;</span><br><span class="line">    procd_set_param respawn 300 5 10</span><br><span class="line">    procd_set_param stdout 1</span><br><span class="line">    procd_set_param stderr 1</span><br><span class="line">    procd_add_jail natfrp log</span><br><span class="line">    procd_close_instance</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>然后执行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#x27;s/\r//&#x27; /etc/init.d/natfrpc # 如果您在 Windows 创建了上述文件并上传，执行此命令去除 \r 换行符</span><br><span class="line">chmod +x /etc/init.d/natfrpc # 为其赋予可执行权限</span><br><span class="line">/etc/init.d/natfrpc start # 启动服务</span><br><span class="line">/etc/init.d/natfrpc enable # 如果需要，启用开机自启动</span><br></pre></td></tr></table></figure><p><img src="/upload/2022/09/image-1662723755128.png" alt="image-1662723755128"><br>然后重启路由器即可通过Sakura Frp实现远程开机<img src="/upload/2022/09/image-1662723885537.png" alt="image-1662723885537"></p><p>参考文章<a href="https://doc.natfrp.com/#/frpc/service/openwrt">https://doc.natfrp.com/#/frpc/service/openwrt</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基于BASYS3开发板的流水灯设计</title>
+      <link href="/2022/06/23/%E5%9F%BA%E4%BA%8EBASYS3%E5%BC%80%E5%8F%91%E6%9D%BF%E7%9A%84%E6%B5%81%E6%B0%B4%E7%81%AF%E8%AE%BE%E8%AE%A1-%E5%9F%BA%E4%BA%8Ebasys3%E5%BC%80%E5%8F%91%E6%9D%BF%E7%9A%84%E6%B5%81%E6%B0%B4%E7%81%AF%E8%AE%BE%E8%AE%A1/"/>
+      <url>/2022/06/23/%E5%9F%BA%E4%BA%8EBASYS3%E5%BC%80%E5%8F%91%E6%9D%BF%E7%9A%84%E6%B5%81%E6%B0%B4%E7%81%AF%E8%AE%BE%E8%AE%A1-%E5%9F%BA%E4%BA%8Ebasys3%E5%BC%80%E5%8F%91%E6%9D%BF%E7%9A%84%E6%B5%81%E6%B0%B4%E7%81%AF%E8%AE%BE%E8%AE%A1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>基于BASYS3开发板，设计一个流水灯，点亮开发板上16个LED灯，从右到左依次点亮，每个灯亮1s时间；并将LED灯的序号（最右边序号是0，最左边序号是F），通过七段数码管显示。</p><ol><li>Verilog module代码<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">`timescale 1ns / 1ps</span><br><span class="line">module Marquee(switch, clk, led, anode, led_code);</span><br><span class="line">    input switch, clk;</span><br><span class="line">    output reg [15:0] led;</span><br><span class="line">    output reg [6:0] led_code;</span><br><span class="line">    output reg[3:0] anode;</span><br><span class="line">    reg [28:0] count;</span><br><span class="line">    </span><br><span class="line">always @(posedge clk)//从右到左依次点亮LED灯</span><br><span class="line">    begin</span><br><span class="line">        if(!switch)</span><br><span class="line">                begin</span><br><span class="line">                     led &lt;= 16&#x27;b0000000000000001;</span><br><span class="line">                     count &lt;= 29&#x27;b0;</span><br><span class="line">                 end</span><br><span class="line">        else</span><br><span class="line">            begin</span><br><span class="line">                if(count == 29&#x27;d100_000_000)</span><br><span class="line">                    begin</span><br><span class="line">                        count &lt;= 29&#x27;b0;</span><br><span class="line">                        if(led == 16&#x27;b1000000000000000)</span><br><span class="line">                            led &lt;= 16&#x27;b0000000000000001;</span><br><span class="line">                        else</span><br><span class="line">                            led &lt;= (led &lt;&lt; 1);</span><br><span class="line">                    end</span><br><span class="line">                else</span><br><span class="line">                    begin</span><br><span class="line">                        count &lt;= count + 1;</span><br><span class="line">                        led &lt;= led;</span><br><span class="line">                    end</span><br><span class="line">            end</span><br><span class="line">    end</span><br><span class="line"> </span><br><span class="line"> always @(*) //选择位</span><br><span class="line">    begin </span><br><span class="line">        anode=4&#x27;b1110;</span><br><span class="line">    end</span><br><span class="line">    </span><br><span class="line">always @(*)//数码管显示LED灯序号</span><br><span class="line">    case(led)</span><br><span class="line">       16&#x27;b0000000000000001:led_code=7&#x27;b0000001;//0到F</span><br><span class="line">       16&#x27;b0000000000000010:led_code=7&#x27;b1001111;</span><br><span class="line">       16&#x27;b0000000000000100:led_code=7&#x27;b0010010;</span><br><span class="line">       16&#x27;b0000000000001000:led_code=7&#x27;b0000110;</span><br><span class="line">       16&#x27;b0000000000010000:led_code=7&#x27;b1001100;</span><br><span class="line">       16&#x27;b0000000000100000:led_code=7&#x27;b0100100;</span><br><span class="line">       16&#x27;b0000000001000000:led_code=7&#x27;b0100000;</span><br><span class="line">       16&#x27;b0000000010000000:led_code=7&#x27;b0001111;</span><br><span class="line">       16&#x27;b0000000100000000:led_code=7&#x27;b0000000;</span><br><span class="line">       16&#x27;b0000001000000000:led_code=7&#x27;b0000100;</span><br><span class="line">       16&#x27;b0000010000000000:led_code=7&#x27;b0001000;</span><br><span class="line">       16&#x27;b0000100000000000:led_code=7&#x27;b1100000;</span><br><span class="line">       16&#x27;b0001000000000000:led_code=7&#x27;b0110001;</span><br><span class="line">       16&#x27;b0010000000000000:led_code=7&#x27;b1000010;</span><br><span class="line">       16&#x27;b0100000000000000:led_code=7&#x27;b0110000;</span><br><span class="line">       16&#x27;b1000000000000000:led_code=7&#x27;b0111000;</span><br><span class="line">   default:led_code=7&#x27;b0000001;</span><br><span class="line">   endcase</span><br></pre></td></tr></table></figure></li></ol><p>endmodule<br>2. 约束文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">set_property PACKAGE_PIN V17 [get_ports switch]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports switch]</span><br><span class="line"></span><br><span class="line">set_property PACKAGE_PIN W5 [get_ports clk]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports clk]</span><br><span class="line"></span><br><span class="line">#led</span><br><span class="line">set_property PACKAGE_PIN U16 [get_ports &#123;led[0]&#125;]</span><br><span class="line">set_property PACKAGE_PIN E19 [get_ports &#123;led[1]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U19 [get_ports &#123;led[2]&#125;]</span><br><span class="line">set_property PACKAGE_PIN V19 [get_ports &#123;led[3]&#125;]</span><br><span class="line">set_property PACKAGE_PIN W18 [get_ports &#123;led[4]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U15 [get_ports &#123;led[5]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U14 [get_ports &#123;led[6]&#125;]</span><br><span class="line">set_property PACKAGE_PIN V14 [get_ports &#123;led[7]&#125;]</span><br><span class="line">set_property PACKAGE_PIN V13 [get_ports &#123;led[8]&#125;]</span><br><span class="line">set_property PACKAGE_PIN V3 [get_ports &#123;led[9]&#125;]</span><br><span class="line">set_property PACKAGE_PIN W3 [get_ports &#123;led[10]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U3 [get_ports &#123;led[11]&#125;]</span><br><span class="line">set_property PACKAGE_PIN P3 [get_ports &#123;led[12]&#125;]</span><br><span class="line">set_property PACKAGE_PIN N3 [get_ports &#123;led[13]&#125;]</span><br><span class="line">set_property PACKAGE_PIN P1 [get_ports &#123;led[14]&#125;]</span><br><span class="line">set_property PACKAGE_PIN L1 [get_ports &#123;led[15]&#125;]</span><br><span class="line"></span><br><span class="line">#led_code</span><br><span class="line">set_property PACKAGE_PIN U7 [get_ports &#123;led_code[0]&#125;]  </span><br><span class="line">set_property PACKAGE_PIN V5 [get_ports &#123;led_code[1]&#125;] </span><br><span class="line">set_property PACKAGE_PIN U5 [get_ports &#123;led_code[2]&#125;]  </span><br><span class="line">set_property PACKAGE_PIN V8 [get_ports &#123;led_code[3]&#125;] </span><br><span class="line">set_property PACKAGE_PIN U8 [get_ports &#123;led_code[4]&#125;]  </span><br><span class="line">set_property PACKAGE_PIN W6 [get_ports &#123;led_code[5]&#125;] </span><br><span class="line">set_property PACKAGE_PIN W7 [get_ports &#123;led_code[6]&#125;]                    </span><br><span class="line"></span><br><span class="line">#anode</span><br><span class="line">set_property PACKAGE_PIN U2 [get_ports &#123;anode[0]&#125;]                    </span><br><span class="line">set_property PACKAGE_PIN U4 [get_ports &#123;anode[1]&#125;]                    </span><br><span class="line">set_property PACKAGE_PIN V4 [get_ports &#123;anode[2]&#125;]               </span><br><span class="line">set_property PACKAGE_PIN W4 [get_ports &#123;anode[3]&#125;]          </span><br><span class="line"></span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;led[*]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;led_code[*]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;anode[*]&#125;]</span><br></pre></td></tr></table></figure><ol start="3"><li>仿真文件代码<br>（便于仿真，设计源码中的count设置为加到100，而非100_000_000）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">module Marquee_tb;</span><br><span class="line">    reg switch, clk;</span><br><span class="line">    wire [15:0] led;</span><br><span class="line">    wire [6:0] led_code;</span><br><span class="line"></span><br><span class="line">    Marquee U_Marquee(.switch(switch), .clk(clk), .led(led), .led_code(led_code));</span><br><span class="line"></span><br><span class="line">    initial</span><br><span class="line">    begin</span><br><span class="line">        clk = 0; switch = 0;</span><br><span class="line"></span><br><span class="line">        #100 switch = 1;</span><br><span class="line"></span><br><span class="line">        #100;</span><br><span class="line">    end</span><br><span class="line"></span><br><span class="line">    always #10 clk = ~clk;</span><br><span class="line"></span><br><span class="line">endmodule</span><br></pre></td></tr></table></figure></li></ol><p><img src="/upload/2022/06/IMG_20220623_112408.jpg" alt="IMG_20220623_112408"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> 校园 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>docker界面化管理Portainer</title>
+      <link href="/2022/06/09/docker%E7%95%8C%E9%9D%A2%E5%8C%96%E7%AE%A1%E7%90%86Portainer-docker-jie-mian-hua-guan-li-portainer/"/>
+      <url>/2022/06/09/docker%E7%95%8C%E9%9D%A2%E5%8C%96%E7%AE%A1%E7%90%86Portainer-docker-jie-mian-hua-guan-li-portainer/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="拉取portainer镜像"><a href="#拉取portainer镜像" class="headerlink" title="拉取portainer镜像"></a>拉取portainer镜像</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull lihaixin/portainer</span><br></pre></td></tr></table></figure><h1 id="启动镜像"><a href="#启动镜像" class="headerlink" title="启动镜像"></a>启动镜像</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 9000:9000 --restart=always \</span><br><span class="line">-v /var/run/docker.sock:/var/run/docker.sock \</span><br><span class="line">--name portainer lihaixin/portainer</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>傻妞进程守护</title>
+      <link href="/2022/06/08/%E5%82%BB%E5%A6%9E%E8%BF%9B%E7%A8%8B%E5%AE%88%E6%8A%A4-sha-niu-shou-hu/"/>
+      <url>/2022/06/08/%E5%82%BB%E5%A6%9E%E8%BF%9B%E7%A8%8B%E5%AE%88%E6%8A%A4-sha-niu-shou-hu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>systemctl实践<br>其实，sillyGirl的“守护傻妞”，systemd方法来守护进程的，只不过作者把这个过程进行了傻瓜化，方便用户使用。</p><p>我们可以直接自己建立 sillyGirl.service 系统服务文件，并通过命令激活启动它。马上进入实战学习！</p><p>新建配置文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /usr/lib/systemd/system/sillyGirl.service</span><br></pre></td></tr></table></figure><p>按键盘字母 i 进入编辑模式，复制下面👇的内容，然后按键盘 esc 退出编辑模式，再输入命令 :wq 保存并退出。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=silly silly girl bot</span><br><span class="line">After=network.target mysql.service mariadb.service mysqld.service</span><br><span class="line">[Service]</span><br><span class="line">Type=forking</span><br><span class="line">ExecStart=/root/sillyGirl/sillyGirl -d</span><br><span class="line">PIDFile=/var/run/sillyGirl.pid</span><br><span class="line">Restart=always</span><br><span class="line">User=root</span><br><span class="line">Group=root</span><br><span class="line">        </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br><span class="line">Alias=sillyGirl.service</span><br></pre></td></tr></table></figure><p>然后分别输入下面的命令激活</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">systemctl daemon-reload #重新加载所有被修改过的服务配置，否则配置不会生效</span><br><span class="line">systemctl enable sillyGirl.service #设置为开机自启</span><br><span class="line">systemctl start sillyGirl.service #启动服务</span><br></pre></td></tr></table></figure><h1 id="其他常用的管理命令"><a href="#其他常用的管理命令" class="headerlink" title="其他常用的管理命令"></a>其他常用的管理命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart sillyGirl.service #重启服务</span><br><span class="line">systemctl stop sillyGirl.service #停止服务</span><br></pre></td></tr></table></figure><p>下面我们来感受一下系统级进程守护的威力<br><img src="/upload/2022/06/image.png" alt="image"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ps -A|grep sillyGirl #查看傻妞进程，返回的第一个数字就是pid进程号</span><br><span class="line">kill -9 pid进程号 #杀死傻妞进程</span><br><span class="line">ps -A|grep sillyGirl #再次查看一下傻妞进程是否被杀死</span><br></pre></td></tr></table></figure><p><img src="/upload/2022/06/image-1654700636543.png" alt="image-1654700636543"><br>从此你的 傻妞 就被你捧在手心里了，再也不会掉了！！！</p><p>你们的 node-onebot 也可以通过同样的方法来守护，快去练习一下吧！</p><p>原文<a href="https://www.kejiwanjia.com/jiaocheng/zheteng/notes/74594.html#i-2">https://www.kejiwanjia.com/jiaocheng/zheteng/notes/74594.html#i-2</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>傻妞SillyGirl部署</title>
+      <link href="/2022/06/08/%E5%82%BB%E5%A6%9ESillyGirl%E9%83%A8%E7%BD%B2-sha-niu-sillygirl-bu-shu/"/>
+      <url>/2022/06/08/%E5%82%BB%E5%A6%9ESillyGirl%E9%83%A8%E7%BD%B2-sha-niu-sillygirl-bu-shu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>傻妞插件<a href="https://hi.kejiwanjia.com/apps/sillygirl">https://hi.kejiwanjia.com/apps/sillygirl</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JD薅羊毛食用方法</title>
+      <link href="/2022/06/03/JD%E8%96%85%E7%BE%8A%E6%AF%9B%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95-jd-hao-yang-mao-shi-yong-fang-fa/"/>
+      <url>/2022/06/03/JD%E8%96%85%E7%BE%8A%E6%AF%9B%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95-jd-hao-yang-mao-shi-yong-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>必要准备： 务必先下载好 京东、京喜、京东极速版三个app并开启以下活动（有些需要选择种植或者生产的物品自行选择即可，千万不要空着，否则相当于活动未开），以防脚本无法运行未开启的活动，导致收益降低；</p><p>必开活动：</p><pre><code>      京东必开活动：东东农场、东东萌宠、宠汪汪、种豆得豆      京喜必开活动：京喜财富岛、京喜牧场、京喜工厂      京东极速版必开活动：汪汪乐园、注意需要绑定微信号（部分脚本会自动提现至微信）</code></pre><p>——————————————————————————————————————————————</p><h1 id="1-手机下载安装SB-PRO-TOOL并打开"><a href="#1-手机下载安装SB-PRO-TOOL并打开" class="headerlink" title="1.手机下载安装SB-PRO-TOOL并打开"></a>1.手机下载安装SB-PRO-TOOL并打开</h1><p><a href="https://wwn.lanzoub.com/iFhdb05uenzi">SB-PRO-TOOL_1.0.0.apk</a></p><h1 id="2-点击左上角＋号"><a href="#2-点击左上角＋号" class="headerlink" title="2.点击左上角＋号"></a>2.点击左上角＋号</h1><p><img src="/upload/2022/06/fdf5456fabf1e179fbf1f687ed283a3.png" alt="fdf5456fabf1e179fbf1f687ed283a3"></p><h1 id="3-点击登陆获取"><a href="#3-点击登陆获取" class="headerlink" title="3.点击登陆获取"></a>3.点击登陆获取</h1><p><img src="/upload/2022/06/5eefaef766179b222e97f9d7ab7f76c.png" alt="5eefaef766179b222e97f9d7ab7f76c"></p><h1 id="4-点击确认"><a href="#4-点击确认" class="headerlink" title="4.点击确认"></a>4.点击确认</h1><p><img src="/upload/2022/06/65accfc3205da74eaef353d2576c7ab.png" alt="65accfc3205da74eaef353d2576c7ab"></p><h1 id="5-登录京东账号"><a href="#5-登录京东账号" class="headerlink" title="5.登录京东账号"></a>5.登录京东账号</h1><p><img src="/upload/2022/06/13467bd2eb5f1d6c45f55a5801e06a8.jpg" alt="13467bd2eb5f1d6c45f55a5801e06a8"></p><h1 id="6-点击保存本地"><a href="#6-点击保存本地" class="headerlink" title="6.点击保存本地"></a>6.点击保存本地</h1><p><img src="/upload/2022/06/1b301e4c4f1a5e851f3d46d6533da31-1654234856141.png" alt="1b301e4c4f1a5e851f3d46d6533da31-1654234856141"></p><h1 id="7-点击右上角⚙"><a href="#7-点击右上角⚙" class="headerlink" title="7.点击右上角⚙"></a>7.点击右上角⚙</h1><p><img src="/upload/2022/06/1956815971bc0e9d06cad7048cb0a39.png" alt="1956815971bc0e9d06cad7048cb0a39"></p><h1 id="8-点击图示位置"><a href="#8-点击图示位置" class="headerlink" title="8.点击图示位置"></a>8.点击图示位置</h1><p><img src="/upload/2022/06/e098ef13558759770e04124a5a973c2.png" alt="e098ef13558759770e04124a5a973c2"></p><h1 id="9-点击一键复制"><a href="#9-点击一键复制" class="headerlink" title="9.点击一键复制"></a>9.点击一键复制</h1><p><img src="/upload/2022/06/845fb849d3802421d7d7aa54bac6394.png" alt="845fb849d3802421d7d7aa54bac6394"></p><h1 id="10-打开JD-COOKIE提交站"><a href="#10-打开JD-COOKIE提交站" class="headerlink" title="10.打开JD_COOKIE提交站"></a>10.打开JD_COOKIE提交站</h1><h2 id="JD-COOKIE提交站"><a href="#JD-COOKIE提交站" class="headerlink" title="JD_COOKIE提交站"></a><a href="http://20.239.72.104:5700/#/">JD_COOKIE提交站</a></h2><p>将复制的cookie粘贴在变量值一栏，点击提交即可<br><img src="/upload/2022/06/4af62cd2215c23badb04c9319723864.png" alt="4af62cd2215c23badb04c9319723864"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>青龙库</title>
+      <link href="/2022/05/30/%E9%9D%92%E9%BE%99%E5%BA%93-qing-long-ku/"/>
+      <url>/2022/05/30/%E9%9D%92%E9%BE%99%E5%BA%93-qing-long-ku/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker exec -it qinglong bash</span><br></pre></td></tr></table></figure><p>KR库</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ql repo https://github.com/KingRan/KR.git &quot;jd_|jx_|jdCookie&quot; &quot;activity|backUp&quot; &quot;^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR&quot;</span><br></pre></td></tr></table></figure><p>yyds库<br>【duck】临时活动,开卡,有活动豆多</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ql repo https://github.com/okyyds/duck.git &quot;jd_|jx_|gua_|jddj_|jdCookie&quot; &quot;activity|backUp&quot; &quot;^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator&quot; &quot;master&quot;</span><br></pre></td></tr></table></figure><p>【YYDS】带助力池</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ql repo https://github.com/okyyds/yyds.git &quot;jd_|jx_|gua_|jddj_|jdCookie&quot; &quot;activity|backUp&quot; &quot;^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator&quot; &quot;master&quot;</span><br></pre></td></tr></table></figure><p>【YYDSpure】不带助力池</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ql repo https://github.com/okyyds/yydspure.git &quot;jd_|jx_|gua_|jddj_|jdCookie&quot; &quot;activity|backUp&quot; &quot;^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator&quot; &quot;master&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决vi编辑器按上下左右变成ABCD的问题</title>
+      <link href="/2022/05/26/%E8%A7%A3%E5%86%B3vi%E7%BC%96%E8%BE%91%E5%99%A8%E6%8C%89%E4%B8%8A%E4%B8%8B%E5%B7%A6%E5%8F%B3%E5%8F%98%E6%88%90ABCD%E7%9A%84%E9%97%AE%E9%A2%98-ubuntu-jie-jue-vi-bian-ji-qi-an-shang-xia-zuo-you-bian-cheng-abcd-de-wen-ti/"/>
+      <url>/2022/05/26/%E8%A7%A3%E5%86%B3vi%E7%BC%96%E8%BE%91%E5%99%A8%E6%8C%89%E4%B8%8A%E4%B8%8B%E5%B7%A6%E5%8F%B3%E5%8F%98%E6%88%90ABCD%E7%9A%84%E9%97%AE%E9%A2%98-ubuntu-jie-jue-vi-bian-ji-qi-an-shang-xia-zuo-you-bian-cheng-abcd-de-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>出现该问题的原因是原有的vim-common组件有问题，可以通过卸载原有的vim-common组件，安装新的vim来解决这个问题</p><ul><li>卸载原先的vim-common组件<br>在退出文件编辑后使用命令<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get remove vim-common</span><br></pre></td></tr></table></figure>卸载完成后使用命令</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vim</span><br></pre></td></tr></table></figure><p>安装vim</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解包bin格式固件</title>
+      <link href="/2022/05/26/%E8%A7%A3%E5%8C%85bin%E6%A0%BC%E5%BC%8F%E5%9B%BA%E4%BB%B6-jie-bao-bin-ge-shi-gu-jian/"/>
+      <url>/2022/05/26/%E8%A7%A3%E5%8C%85bin%E6%A0%BC%E5%BC%8F%E5%9B%BA%E4%BB%B6-jie-bao-bin-ge-shi-gu-jian/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>需要在Linux环境下（以Ubuntu18.04为例）</p><ul><li>安装这两个包<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install binwalk</span><br><span class="line">sudo apt-get install squashfs-tools</span><br></pre></td></tr></table></figure></li><li>cd到固件所在目录<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">binwalk -e xxx.bin</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>1</title>
+      <link href="/2022/05/25/1-1/"/>
+      <url>/2022/05/25/1-1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>无人问津也好，技不如人也罢。你都要试着安静下来，去做自己该做的事，而不是让内心烦躁，焦虑，毁掉你本就不多的热情和定力。昨日之深渊，今日之浅谈。路虽远，行则将至。事虽难，做则可成。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲言碎语 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决网站通过识别 User-Agent 来封杀爬虫程序的问题</title>
+      <link href="/2022/05/24/%E8%A7%A3%E5%86%B3%E7%BD%91%E7%AB%99%E9%80%9A%E8%BF%87%E8%AF%86%E5%88%AB%20User-Agent%20%E6%9D%A5%E5%B0%81%E6%9D%80%E7%88%AC%E8%99%AB%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3%E7%BD%91%E7%AB%99%E9%80%9A%E8%BF%87%E8%AF%86%E5%88%ABuser-agent%E6%9D%A5%E5%B0%81%E6%9D%80%E7%88%AC%E8%99%AB%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/05/24/%E8%A7%A3%E5%86%B3%E7%BD%91%E7%AB%99%E9%80%9A%E8%BF%87%E8%AF%86%E5%88%AB%20User-Agent%20%E6%9D%A5%E5%B0%81%E6%9D%80%E7%88%AC%E8%99%AB%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3%E7%BD%91%E7%AB%99%E9%80%9A%E8%BF%87%E8%AF%86%E5%88%ABuser-agent%E6%9D%A5%E5%B0%81%E6%9D%80%E7%88%AC%E8%99%AB%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>常见的 User-Agent 请求头，如下所示：</p><p>常见的 User-Agent 汇总表</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">系统浏览器User-Agent字符串</span><br><span class="line">MacChrome Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36</span><br><span class="line">MacFirefox Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0</span><br><span class="line">MacSafariMozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15</span><br><span class="line">Windows EdgeMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763</span><br><span class="line">Windows IEMozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko</span><br><span class="line">Windows Chrome Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36</span><br><span class="line">iOSChrome Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25</span><br><span class="line">iOSSafariMozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4</span><br><span class="line">AndroidChromeMozilla/5.0 (Linux; Android 4.2.1; M040 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36</span><br><span class="line">AndroidWebkitMozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; M351 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</span><br></pre></td></tr></table></figure><p>使用上表中的浏览器 UA，我们可以很方便的构建出 User-Agent。通过在线识别工具，可以查看本机的浏览器版本以及 UA 信息</p><h2 id="重构爬虫UA信息"><a href="#重构爬虫UA信息" class="headerlink" title="重构爬虫UA信息"></a>重构爬虫UA信息</h2><p>下面使用urllib.request.Request()方法重构 User-Agent 信息，代码如下所示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">from urllib import request</span><br><span class="line">定义变量：URL 与 headers</span><br><span class="line">url = &#x27;http://httpbin.org/get&#x27; #向测试网站发送请求</span><br><span class="line">#重构请求头，伪装成 Mac火狐浏览器访问，可以使用上表中任意浏览器的UA信息</span><br><span class="line">headers = &#123;</span><br><span class="line">&#x27;User-Agent&#x27;:&#x27;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0&#x27;&#125;</span><br><span class="line">#1、创建请求对象，包装ua信息</span><br><span class="line">req = request.Request(url=url,headers=headers)</span><br><span class="line">#2、发送请求，获取响应对象</span><br><span class="line">res = request.urlopen(req)</span><br><span class="line">#3、提取响应内容</span><br><span class="line">html = res.read().decode(&#x27;utf-8&#x27;)</span><br><span class="line">print(html)</span><br></pre></td></tr></table></figure><p>程序的运行结果，如下所示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;args&quot;: &#123;&#125;,</span><br><span class="line">  &quot;headers&quot;: &#123;</span><br><span class="line">    &quot;Accept-Encoding&quot;: &quot;identity&quot;,</span><br><span class="line">    &quot;Host&quot;: &quot;httpbin.org&quot;,</span><br><span class="line">    #伪装成了Mac火狐浏览器</span><br><span class="line">    &quot;User-Agent&quot;: &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0&quot;,</span><br><span class="line">    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-6034a52f-372ca79027da685c3712e5f6&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;origin&quot;: &quot;121.17.25.194&quot;,</span><br><span class="line">  &quot;url&quot;: &quot;http://httpbin.org/get&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="自定义UA代理池"><a href="#自定义UA代理池" class="headerlink" title="自定义UA代理池"></a>自定义UA代理池</h2><p>构建代理池的方法也非常简单，在您的 Pycharm 工作目录中定义一个 ua_info.py 文件，并将以下 UA 信息以列表的形式粘贴到该文件中，如下所示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">ua_list = [</span><br><span class="line">    &#x27;Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0&#x27;,</span><br><span class="line">    &#x27;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11&#x27;,</span><br><span class="line">    &#x27;User-Agent:Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11&#x27;,</span><br><span class="line">    &#x27;Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1&#x27;,</span><br><span class="line">    &#x27;Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)&#x27;,</span><br><span class="line">    &#x27;Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50&#x27;,</span><br><span class="line">    &#x27;Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0&#x27;,</span><br><span class="line">    &#x27; Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1&#x27;,</span><br><span class="line">    &#x27;Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1&#x27;,</span><br><span class="line">    &#x27; Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1&#x27;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure><p>经过上述操作，用户代理池就构建成功。</p><h2 id="模块随机获取UA"><a href="#模块随机获取UA" class="headerlink" title="模块随机获取UA"></a>模块随机获取UA</h2><p>您也可以使用专门第三方的模块来随机获取浏览器 UA 信息，不过该模块需要单独安装，安装方式如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">pip install fake-useragent</span><br><span class="line"></span><br><span class="line">下载安装成功后，演示如下代码：</span><br><span class="line">from fake_useragent import UserAgent</span><br><span class="line">#实例化一个对象</span><br><span class="line">ua=UserAgent()</span><br><span class="line">#随机获取一个ie浏览器ua</span><br><span class="line">print(ua.ie)</span><br><span class="line">print(ua.ie)</span><br><span class="line">#随机获取一个火狐浏览器ua</span><br><span class="line">print(ua.firefox)</span><br><span class="line">print(ua.firefox)</span><br></pre></td></tr></table></figure><p>输出结果：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#随机获取ie的ua信息</span><br><span class="line">Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; GTB7.4; InfoPath.3; SV1; .NET CLR 3.1.76908; WOW64; en-US)</span><br><span class="line">Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0</span><br><span class="line"></span><br><span class="line">#随机获取火狐的ua信息</span><br><span class="line">Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0</span><br><span class="line">Mozilla/5.0 (Windows NT 5.0; rv:21.0) Gecko/20100101 Firefox/21.0</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python爬虫</title>
+      <link href="/2022/05/24/Python%E7%88%AC%E8%99%AB-python%E7%88%AC%E8%99%AB/"/>
+      <url>/2022/05/24/Python%E7%88%AC%E8%99%AB-python%E7%88%AC%E8%99%AB/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="关于-urllib-做简单总结"><a href="#关于-urllib-做简单总结" class="headerlink" title="关于 urllib 做简单总结"></a>关于 urllib 做简单总结</h1><h2 id="1-urlopen"><a href="#1-urlopen" class="headerlink" title="1) urlopen()"></a>1) urlopen()</h2><p>表示向网站发起请求并获取响应对象，如下所示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">urllib.request.urlopen(url,timeout)</span><br></pre></td></tr></table></figure><p>urlopen() 有两个参数，说明如下：<br>url：表示要爬取数据的 url 地址。<br>timeout：设置等待超时时间，指定时间内未得到响应则抛出超时异常。</p><h2 id="2-Request"><a href="#2-Request" class="headerlink" title="2) Request()"></a>2) Request()</h2><p>该方法用于创建请求对象、包装请求头，比如重构 User-Agent（即用户代理，指用户使用的浏览器）使程序更像人类的请求，而非机器。重构 User-Agent 是爬虫和反爬虫斗争的第一步。在下一节会做详细介绍。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">urllib.request.Request(url,headers)</span><br></pre></td></tr></table></figure><p>参数说明如下：<br>url：请求的URL地址。<br>headers：重构请求头。</p><h2 id="3-html响应对象方法"><a href="#3-html响应对象方法" class="headerlink" title="3) html响应对象方法"></a>3) html响应对象方法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">bytes = response.read() # read()返回结果为 bytes 数据类型</span><br><span class="line">string = response.read().decode() # decode()将字节串转换为 string 类型</span><br><span class="line">url = response.geturl() # 返回响应对象的URL地址</span><br><span class="line">code = response.getcode() # 返回请求时的HTTP响应码</span><br></pre></td></tr></table></figure><h2 id="4-编码解码操作"><a href="#4-编码解码操作" class="headerlink" title="4) 编码解码操作"></a>4) 编码解码操作</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#字符串转换为字节码</span><br><span class="line">string.encode(&quot;utf-8&quot;) </span><br><span class="line">#字节码转换为字符串</span><br><span class="line">bytes.decode(&quot;utf-8&quot;) </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OpenWrt命令</title>
+      <link href="/2022/05/21/OpenWrt%E5%91%BD%E4%BB%A4-openwrt-ming-ling/"/>
+      <url>/2022/05/21/OpenWrt%E5%91%BD%E4%BB%A4-openwrt-ming-ling/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一键更新所有软件包</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">opkg update</span><br><span class="line">opkg list-upgradable | cut -f 1 -d &#x27; &#x27; | xargs opkg upgrade</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>简易下载站搭建思路</title>
+      <link href="/2022/05/20/%E7%AE%80%E6%98%93%E4%B8%8B%E8%BD%BD%E7%AB%99%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF-jian-yi-xia-zai-zhan-da-jian-si-lu/"/>
+      <url>/2022/05/20/%E7%AE%80%E6%98%93%E4%B8%8B%E8%BD%BD%E7%AB%99%E6%90%AD%E5%BB%BA%E6%80%9D%E8%B7%AF-jian-yi-xia-zai-zhan-da-jian-si-lu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>带宽受限于DDNSTO免费套餐，只有4M</p><p>准备工具：</p><p>软路由<br>阿里云盘<br>一、给软路由刷上Openwrt系统</p><p>二、ssh连接路由安装插件</p><p>1.阿里云盘WebDAV</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/messense/aliyundrive-webdav/releases/download/v1.3.1/aliyundrive-webdav_1.3.1-1_aarch64_generic.ipk</span><br><span class="line">wget https://github.com/messense/aliyundrive-webdav/releases/download/v1.3.1/luci-app-aliyundrive-webdav_1.3.1_all.ipk</span><br><span class="line">wget https://github.com/messense/aliyundrive-webdav/releases/download/v1.3.1/luci-i18n-aliyundrive-webdav-zh-cn_1.3.1-1_all.ipk</span><br><span class="line">opkg install aliyundrive-webdav_1.3.1-1_aarch64_generic.ipk</span><br><span class="line">opkg install luci-app-aliyundrive-webdav_1.3.1_all.ipk</span><br><span class="line">opkg install luci-i18n-aliyundrive-webdav-zh-cn_1.3.1-1_all.ipk</span><br></pre></td></tr></table></figure><p>2.DDNSTO</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh)&quot;</span><br></pre></td></tr></table></figure><p>三、按照项目wiki使用方法配置</p><p>阿里云盘WebDAV</p><p>DDNSTO</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OpenWrt固件刷入</title>
+      <link href="/2022/05/20/OpenWrt%E5%9B%BA%E4%BB%B6%E5%88%B7%E5%85%A5-openwrt-gu-jian-shua-ru/"/>
+      <url>/2022/05/20/OpenWrt%E5%9B%BA%E4%BB%B6%E5%88%B7%E5%85%A5-openwrt-gu-jian-shua-ru/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="DD命令刷固件"><a href="#DD命令刷固件" class="headerlink" title="DD命令刷固件"></a>DD命令刷固件</h1><p>点击复制代码 Bash</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dd if=//tmp/tmp/op.img of=/dev/sda</span><br></pre></td></tr></table></figure><h1 id="Physdiskwrite刷入"><a href="#Physdiskwrite刷入" class="headerlink" title="Physdiskwrite刷入"></a>Physdiskwrite刷入</h1><p><a href="https://liang666.kooldns.cn/Share/physdiskwrite.exe">physdiskwrite下载</a></p><ol><li><p>进入 WinPE 以后，开始-&gt;运行-&gt;cmd，</p></li><li><p>打开命令行界面，先 输入U盘的盘符，</p></li></ol><p>例如我这里盘符是 U，那么我就输入： u: 然后回车，就进入到了U盘的目录下。</p><ol start="3"><li>然后再通过 cd 命令进入你放置 physdiskwrite.exe 的目录，执行 physdiskwrite.exe 写入命令：</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">physdiskwrite.exe -u openwrt-x86-64-generic-squashfs-combined-efi.img</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>V-AB分区手机刷入面具教程</title>
+      <link href="/2022/05/20/V-AB%E5%88%86%E5%8C%BA%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5%E9%9D%A2%E5%85%B7%E6%95%99%E7%A8%8B-v-ab-fen-qu-shou-ji-shua-ru-mian-ju-jiao-cheng/"/>
+      <url>/2022/05/20/V-AB%E5%88%86%E5%8C%BA%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5%E9%9D%A2%E5%85%B7%E6%95%99%E7%A8%8B-v-ab-fen-qu-shou-ji-shua-ru-mian-ju-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>思路:从完整包解包提取boot.img→面具修补boot.img→adb刷入修补好的boot.img</p><h1 id="一、电脑端提取boot-img"><a href="#一、电脑端提取boot-img" class="headerlink" title="一、电脑端提取boot.img"></a>一、电脑端提取boot.img</h1><h2 id="1-在xiaomirom-com下载你自己机器系统对应的完整包"><a href="#1-在xiaomirom-com下载你自己机器系统对应的完整包" class="headerlink" title="1.在xiaomirom.com下载你自己机器系统对应的完整包"></a>1.在<a href="http://xiaomirom.com/">xiaomirom.com</a>下载你自己机器系统对应的完整包</h2><h2 id="2-电脑上用解压缩软件把rom压缩包里面的payload-bin文件提取出来。"><a href="#2-电脑上用解压缩软件把rom压缩包里面的payload-bin文件提取出来。" class="headerlink" title="2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。"></a>2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。</h2><p><img src="/upload/2022/09/image-1664274676910.png" alt="image-1664274676910"></p><h2 id="3-下载payload-dumper工具，解压，把payload-bin复制到payload-dumper目录下的payload-input里面。"><a href="#3-下载payload-dumper工具，解压，把payload-bin复制到payload-dumper目录下的payload-input里面。" class="headerlink" title="3.下载payload_dumper工具，解压，把payload.bin复制到payload_dumper目录下的payload_input里面。"></a>3.下载<a href="%5Bpayload_dumper-win64.zip%5D(https://liangszu.xyz/upload/2022/09/payload_dumper-win64.zip)">payload_dumper</a>工具，解压，把payload.bin复制到payload_dumper目录下的payload_input里面。</h2><p><img src="/upload/2022/09/image-1664274727266.png" alt="image-1664274727266"></p><h2 id="运行payload-dumper-exe开始跑代码。"><a href="#运行payload-dumper-exe开始跑代码。" class="headerlink" title="运行payload_dumper.exe开始跑代码。"></a>运行payload_dumper.exe开始跑代码。</h2><p><img src="/upload/2022/09/image-1664274802335.png" alt="image-1664274802335"></p><h2 id="耐心等待片刻payload-output文件夹就会出现解包好的文件，然后我们提取里面的boot-img"><a href="#耐心等待片刻payload-output文件夹就会出现解包好的文件，然后我们提取里面的boot-img" class="headerlink" title="耐心等待片刻payload_output文件夹就会出现解包好的文件，然后我们提取里面的boot.img"></a>耐心等待片刻payload_output文件夹就会出现解包好的文件，然后我们提取里面的boot.img</h2><p><img src="/upload/2022/09/image-1664274829908.png" alt="image-1664274829908"></p><h1 id="二、手机端面具修补boot"><a href="#二、手机端面具修补boot" class="headerlink" title="二、手机端面具修补boot"></a>二、手机端面具修补boot</h1><h2 id="1-把boot-img复制到手机根目录"><a href="#1-把boot-img复制到手机根目录" class="headerlink" title="1.把boot.img复制到手机根目录"></a>1.把boot.img复制到手机根目录</h2><h2 id="2-手机安装-面具-并打开，点击安装→选择并修补一个文件→找到手机中的boot-img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录-x2F-Download-x2F-magisk-xxx-img"><a href="#2-手机安装-面具-并打开，点击安装→选择并修补一个文件→找到手机中的boot-img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录-x2F-Download-x2F-magisk-xxx-img" class="headerlink" title="2.手机安装 面具 并打开，点击安装→选择并修补一个文件→找到手机中的boot.img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录&#x2F;Download&#x2F;magisk_xxx.img"></a>2.手机安装 <a href="https://www.coolapk.com/apk/com.topjohnwu.magisk">面具</a> 并打开，点击安装→选择并修补一个文件→找到手机中的boot.img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录&#x2F;Download&#x2F;magisk_xxx.img</h2><p><img src="/upload/2022/09/f9e1404c53303926decdc7b18ba847f.jpg" alt="f9e1404c53303926decdc7b18ba847f"><img src="/upload/2022/09/a0ae52ac939b8f8e2765013b3a43b88.jpg" alt="a0ae52ac939b8f8e2765013b3a43b88"></p><h2 id="3-找到修补好的boot文件并移动到电脑桌面。"><a href="#3-找到修补好的boot文件并移动到电脑桌面。" class="headerlink" title="3.找到修补好的boot文件并移动到电脑桌面。"></a>3.找到修补好的boot文件并移动到电脑桌面。</h2><h1 id="三、电脑端刷入boot-img"><a href="#三、电脑端刷入boot-img" class="headerlink" title="三、电脑端刷入boot.img"></a>三、电脑端刷入boot.img</h1><h2 id="1-手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑"><a href="#1-手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑" class="headerlink" title="1.手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑"></a>1.手机关机，按住<strong>音量减</strong>和<strong>电源键</strong>进入fastboot模式，然后连接电脑</h2><h2 id="2-下载一键刷入工具包打开解压。"><a href="#2-下载一键刷入工具包打开解压。" class="headerlink" title="2.下载一键刷入工具包打开解压。"></a>2.下载<a href="https://liangszu.xyz/upload/2022/09/%E4%B8%80%E9%94%AE%E5%85%A5BOOT.exe">一键刷入工具包</a>打开解压。</h2><h2 id="3-把修补好的boot文件改名1-img复制到解压好的工具包目录里面。"><a href="#3-把修补好的boot文件改名1-img复制到解压好的工具包目录里面。" class="headerlink" title="3.把修补好的boot文件改名1.img复制到解压好的工具包目录里面。"></a>3.把修补好的boot文件改名1.img复制到解压好的工具包目录里面。</h2><p><img src="/upload/2022/09/image-1664275397984.png" alt="image-1664275397984"></p><h2 id="4-运行一键刷入boot-bat。"><a href="#4-运行一键刷入boot-bat。" class="headerlink" title="4.运行一键刷入boot.bat。"></a>4.运行一键刷入boot.bat。</h2><p><img src="/upload/2022/09/image-1664275650277.png" alt="image-1664275650277"></p><h2 id="5-按照窗口提示刷入boot-img，重启-ok"><a href="#5-按照窗口提示刷入boot-img，重启-ok" class="headerlink" title="5.按照窗口提示刷入boot.img，重启,ok"></a>5.按照窗口提示刷入boot.img，重启,ok</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Android </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Openwrt路由器自动登录校园网脚本</title>
+      <link href="/2022/05/20/Openwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%84%9A%E6%9C%AC-openwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%84%9A%E6%9C%AC/"/>
+      <url>/2022/05/20/Openwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%84%9A%E6%9C%AC-openwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%84%9A%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>该文章仅适用于深圳大学校园网drcom5.2P版，其他自测</p><h1 id="前提需要"><a href="#前提需要" class="headerlink" title="前提需要"></a>前提需要</h1><ol><li>路由器刷入OpenWrt系统</li><li>电脑下载安装Finalshell或其他SSH工具<br><a href="http://www.hostbuf.com/downloads/finalshell_install.exe">Finalshell下载</a></li></ol><h1 id="手动设置"><a href="#手动设置" class="headerlink" title="手动设置"></a>手动设置</h1><ol><li>SSH连接路由器在路由器&#x2F;usr文件夹，新建文件drcom.sh并进入编辑模式<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /usr/drcom.sh</span><br></pre></td></tr></table></figure></li><li>复制下面命令 ，然后按i开始输入，右键粘贴命令，并将“账号”“密码”处修改为自己校园网账号密码</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">Username=&quot;账号&quot;</span><br><span class="line">Password=&quot;密码&quot;</span><br><span class="line">Date=$(date &quot;+%Y-%m-%d %H:%M:%S&quot;)</span><br><span class="line">parentDir=&quot;/usr&quot;</span><br><span class="line">fileName=&quot;drcom_log.txt&quot;</span><br><span class="line">url=&quot;http://172.30.255.42:801/eportal/portal/login?callback=dr1003&amp;login_method=1&amp;user_account=%2C1%2C$&#123;Username&#125;&amp;user_password=$&#123;Password&#125;&quot;</span><br><span class="line"></span><br><span class="line">echo $Date &gt;&gt; /usr/$fileName</span><br><span class="line">curl $url &gt;&gt; /usr/$fileName </span><br><span class="line">echo &#x27;&#x27; &gt;&gt; /usr/$fileName</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>按一下ESC键，然后按住Shift键输入:wq保存退出<br>输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash /usr/drcom.sh</span><br></pre></td></tr></table></figure><p>检查脚本是否可以运行<br>3. 给drcom.sh赋予权限0777</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 /usr/drcom.sh</span><br></pre></td></tr></table></figure><ol start="4"><li>设置开机自启动<br>编辑<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/rc.local</span><br></pre></td></tr></table></figure>在exit前一行添加<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sleep 10 &amp;&amp; /usr/drcom.sh</span><br></pre></td></tr></table></figure></li><li>添加定时任务</li></ol><p>编辑</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/crontabs/root</span><br></pre></td></tr></table></figure><p>添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0 */10 * * * /usr/drcom.sh</span><br></pre></td></tr></table></figure><p>（表示服务启动后每10分钟执行一次，防止掉线）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 校园 </category>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python</title>
+      <link href="/2022/05/20/Python-python/"/>
+      <url>/2022/05/20/Python-python/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>1.空列表只能从第一个元素list[0]开始赋值<br>2.列表转换成字符串<br>使用 join 函数</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">list1 = [&#x27;a&#x27;, &#x27;1&#x27;, &#x27;b&#x27;, &#x27;2&#x27;]</span><br><span class="line">list1_str = &#x27;, &#x27;.join(list1)</span><br><span class="line">list1_str = &#x27; &#x27;.join(list1)</span><br></pre></td></tr></table></figure><p>3.可以使用下划线_作为数字（包括整数和小数）的分隔符，不会对数值造成影响<br>4. 0.1转化成二进制是无限循环的<br>5. 三个单引号或者双引号可以对多行内容进行注释，这其实是 Python 长字符串的写法<br>6. Python 3.x 中，字符串采用的是 Unicode 字符集，可以用如下代码来查看当前环境的编码格式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import sys</span><br><span class="line">print(sys.getdefaultencoding())</span><br></pre></td></tr></table></figure><p><img src="/upload/2022/09/image-1663341715329.png" alt="image-1663341715329"><br>7. <a href="http://c.biancheng.net/view/2175.html">Python bytes类型及用法</a><br>8. 用set可以实现创建一个无重复元素的集合</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> Python </category>
+          
+          <category> Python爬虫 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Halo</title>
+      <link href="/2022/05/20/Hello%20Halo-hello-halo/"/>
+      <url>/2022/05/20/Hello%20Halo-hello-halo/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Hello-Halo"><a href="#Hello-Halo" class="headerlink" title="Hello Halo"></a>Hello Halo</h2><p>如果你看到了这一篇文章，那么证明你已经安装成功了，感谢使用 <a href="https://halo.run/">Halo</a> 进行创作，希望能够使用愉快。</p><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li>官网：<a href="https://halo.run/">https://halo.run</a></li><li>文档：<a href="https://docs.halo.run/">https://docs.halo.run</a></li><li>社区：<a href="https://bbs.halo.run/">https://bbs.halo.run</a></li><li>主题仓库：<a href="https://halo.run/themes.html">https://halo.run/themes.html</a></li><li>开源地址：<a href="https://github.com/halo-dev/halo">https://github.com/halo-dev/halo</a></li></ul><p>在使用过程中，有任何问题都可以通过以上链接找寻答案，或者联系我们。</p><blockquote><p>这是一篇自动生成的文章，请删除这篇文章之后开始你的创作吧！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 默认分类 </category>
+          
+      </categories>
       
       
     </entry>

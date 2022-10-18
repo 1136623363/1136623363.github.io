@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>V-AB分区手机刷入面具教程 | Liang's Blog</title><meta name="author" content="Liang"><meta name="copyright" content="Liang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="思路:从完整包解包提取boot.img→面具修补boot.img→adb刷入修补好的boot.img 一、电脑端提取boot.img1.在xiaomirom.com下载你自己机器系统对应的完整包2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。 3.下载payload_dumper工具，解压，把payload.bin复制到payload_dumper目录下的payloa">
+<meta property="og:type" content="article">
+<meta property="og:title" content="V-AB分区手机刷入面具教程">
+<meta property="og:url" content="http://liangszu.site/2022/05/20/V-AB%E5%88%86%E5%8C%BA%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5%E9%9D%A2%E5%85%B7%E6%95%99%E7%A8%8B-v-ab-fen-qu-shou-ji-shua-ru-mian-ju-jiao-cheng/index.html">
+<meta property="og:site_name" content="Liang&#39;s Blog">
+<meta property="og:description" content="思路:从完整包解包提取boot.img→面具修补boot.img→adb刷入修补好的boot.img 一、电脑端提取boot.img1.在xiaomirom.com下载你自己机器系统对应的完整包2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。 3.下载payload_dumper工具，解压，把payload.bin复制到payload_dumper目录下的payloa">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-05-20T04:10:49.890Z">
+<meta property="article:modified_time" content="2022-09-27T10:52:10.879Z">
+<meta property="article:author" content="Liang">
+<meta name="twitter:card" content="summary"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://liangszu.site/2022/05/20/V-AB%E5%88%86%E5%8C%BA%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5%E9%9D%A2%E5%85%B7%E6%95%99%E7%A8%8B-v-ab-fen-qu-shou-ji-shua-ru-mian-ju-jiao-cheng/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'V-AB分区手机刷入面具教程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-09-27 18:52:10'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xpand_fish.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">16</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Liang's Blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">V-AB分区手机刷入面具教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-05-20T04:10:49.890Z" title="发表于 2022-05-20 12:10:49">2022-05-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-09-27T10:52:10.879Z" title="更新于 2022-09-27 18:52:10">2022-09-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Android/">Android</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">336</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="V-AB分区手机刷入面具教程"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>思路:从完整包解包提取boot.img→面具修补boot.img→adb刷入修补好的boot.img</p>
+<h1 id="一、电脑端提取boot-img"><a href="#一、电脑端提取boot-img" class="headerlink" title="一、电脑端提取boot.img"></a>一、电脑端提取boot.img</h1><h2 id="1-在xiaomirom-com下载你自己机器系统对应的完整包"><a href="#1-在xiaomirom-com下载你自己机器系统对应的完整包" class="headerlink" title="1.在xiaomirom.com下载你自己机器系统对应的完整包"></a>1.在<a target="_blank" rel="noopener" href="http://xiaomirom.com/">xiaomirom.com</a>下载你自己机器系统对应的完整包</h2><h2 id="2-电脑上用解压缩软件把rom压缩包里面的payload-bin文件提取出来。"><a href="#2-电脑上用解压缩软件把rom压缩包里面的payload-bin文件提取出来。" class="headerlink" title="2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。"></a>2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。</h2><p><img src="/upload/2022/09/image-1664274676910.png" alt="image-1664274676910"></p>
+<h2 id="3-下载payload-dumper工具，解压，把payload-bin复制到payload-dumper目录下的payload-input里面。"><a href="#3-下载payload-dumper工具，解压，把payload-bin复制到payload-dumper目录下的payload-input里面。" class="headerlink" title="3.下载payload_dumper工具，解压，把payload.bin复制到payload_dumper目录下的payload_input里面。"></a>3.下载<a href="%5Bpayload_dumper-win64.zip%5D(https://liangszu.xyz/upload/2022/09/payload_dumper-win64.zip)">payload_dumper</a>工具，解压，把payload.bin复制到payload_dumper目录下的payload_input里面。</h2><p><img src="/upload/2022/09/image-1664274727266.png" alt="image-1664274727266"></p>
+<h2 id="运行payload-dumper-exe开始跑代码。"><a href="#运行payload-dumper-exe开始跑代码。" class="headerlink" title="运行payload_dumper.exe开始跑代码。"></a>运行payload_dumper.exe开始跑代码。</h2><p><img src="/upload/2022/09/image-1664274802335.png" alt="image-1664274802335"></p>
+<h2 id="耐心等待片刻payload-output文件夹就会出现解包好的文件，然后我们提取里面的boot-img"><a href="#耐心等待片刻payload-output文件夹就会出现解包好的文件，然后我们提取里面的boot-img" class="headerlink" title="耐心等待片刻payload_output文件夹就会出现解包好的文件，然后我们提取里面的boot.img"></a>耐心等待片刻payload_output文件夹就会出现解包好的文件，然后我们提取里面的boot.img</h2><p><img src="/upload/2022/09/image-1664274829908.png" alt="image-1664274829908"></p>
+<h1 id="二、手机端面具修补boot"><a href="#二、手机端面具修补boot" class="headerlink" title="二、手机端面具修补boot"></a>二、手机端面具修补boot</h1><h2 id="1-把boot-img复制到手机根目录"><a href="#1-把boot-img复制到手机根目录" class="headerlink" title="1.把boot.img复制到手机根目录"></a>1.把boot.img复制到手机根目录</h2><h2 id="2-手机安装-面具-并打开，点击安装→选择并修补一个文件→找到手机中的boot-img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录-x2F-Download-x2F-magisk-xxx-img"><a href="#2-手机安装-面具-并打开，点击安装→选择并修补一个文件→找到手机中的boot-img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录-x2F-Download-x2F-magisk-xxx-img" class="headerlink" title="2.手机安装 面具 并打开，点击安装→选择并修补一个文件→找到手机中的boot.img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录&#x2F;Download&#x2F;magisk_xxx.img"></a>2.手机安装 <a target="_blank" rel="noopener" href="https://www.coolapk.com/apk/com.topjohnwu.magisk">面具</a> 并打开，点击安装→选择并修补一个文件→找到手机中的boot.img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录&#x2F;Download&#x2F;magisk_xxx.img</h2><p><img src="/upload/2022/09/f9e1404c53303926decdc7b18ba847f.jpg" alt="f9e1404c53303926decdc7b18ba847f"><img src="/upload/2022/09/a0ae52ac939b8f8e2765013b3a43b88.jpg" alt="a0ae52ac939b8f8e2765013b3a43b88"></p>
+<h2 id="3-找到修补好的boot文件并移动到电脑桌面。"><a href="#3-找到修补好的boot文件并移动到电脑桌面。" class="headerlink" title="3.找到修补好的boot文件并移动到电脑桌面。"></a>3.找到修补好的boot文件并移动到电脑桌面。</h2><h1 id="三、电脑端刷入boot-img"><a href="#三、电脑端刷入boot-img" class="headerlink" title="三、电脑端刷入boot.img"></a>三、电脑端刷入boot.img</h1><h2 id="1-手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑"><a href="#1-手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑" class="headerlink" title="1.手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑"></a>1.手机关机，按住<strong>音量减</strong>和<strong>电源键</strong>进入fastboot模式，然后连接电脑</h2><h2 id="2-下载一键刷入工具包打开解压。"><a href="#2-下载一键刷入工具包打开解压。" class="headerlink" title="2.下载一键刷入工具包打开解压。"></a>2.下载<a target="_blank" rel="noopener" href="https://liangszu.xyz/upload/2022/09/%E4%B8%80%E9%94%AE%E5%85%A5BOOT.exe">一键刷入工具包</a>打开解压。</h2><h2 id="3-把修补好的boot文件改名1-img复制到解压好的工具包目录里面。"><a href="#3-把修补好的boot文件改名1-img复制到解压好的工具包目录里面。" class="headerlink" title="3.把修补好的boot文件改名1.img复制到解压好的工具包目录里面。"></a>3.把修补好的boot文件改名1.img复制到解压好的工具包目录里面。</h2><p><img src="/upload/2022/09/image-1664275397984.png" alt="image-1664275397984"></p>
+<h2 id="4-运行一键刷入boot-bat。"><a href="#4-运行一键刷入boot-bat。" class="headerlink" title="4.运行一键刷入boot.bat。"></a>4.运行一键刷入boot.bat。</h2><p><img src="/upload/2022/09/image-1664275650277.png" alt="image-1664275650277"></p>
+<h2 id="5-按照窗口提示刷入boot-img，重启-ok"><a href="#5-按照窗口提示刷入boot-img，重启-ok" class="headerlink" title="5.按照窗口提示刷入boot.img，重启,ok"></a>5.按照窗口提示刷入boot.img，重启,ok</h2></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://liangszu.site">Liang</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://liangszu.site/2022/05/20/V-AB%E5%88%86%E5%8C%BA%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5%E9%9D%A2%E5%85%B7%E6%95%99%E7%A8%8B-v-ab-fen-qu-shou-ji-shua-ru-mian-ju-jiao-cheng/">http://liangszu.site/2022/05/20/V-AB%E5%88%86%E5%8C%BA%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5%E9%9D%A2%E5%85%B7%E6%95%99%E7%A8%8B-v-ab-fen-qu-shou-ji-shua-ru-mian-ju-jiao-cheng/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://liangszu.site" target="_blank">Liang's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/05/20/OpenWrt%E5%9B%BA%E4%BB%B6%E5%88%B7%E5%85%A5-openwrt-gu-jian-shua-ru/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">OpenWrt固件刷入</div></div></a></div><div class="next-post pull-right"><a href="/2022/05/20/Openwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%84%9A%E6%9C%AC-openwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%84%9A%E6%9C%AC/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Openwrt路由器自动登录校园网脚本</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Liang</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">16</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/1136623363"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/1136623363" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:1136623363@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E7%94%B5%E8%84%91%E7%AB%AF%E6%8F%90%E5%8F%96boot-img"><span class="toc-number">1.</span> <span class="toc-text">一、电脑端提取boot.img</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%9C%A8xiaomirom-com%E4%B8%8B%E8%BD%BD%E4%BD%A0%E8%87%AA%E5%B7%B1%E6%9C%BA%E5%99%A8%E7%B3%BB%E7%BB%9F%E5%AF%B9%E5%BA%94%E7%9A%84%E5%AE%8C%E6%95%B4%E5%8C%85"><span class="toc-number">1.1.</span> <span class="toc-text">1.在xiaomirom.com下载你自己机器系统对应的完整包</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%94%B5%E8%84%91%E4%B8%8A%E7%94%A8%E8%A7%A3%E5%8E%8B%E7%BC%A9%E8%BD%AF%E4%BB%B6%E6%8A%8Arom%E5%8E%8B%E7%BC%A9%E5%8C%85%E9%87%8C%E9%9D%A2%E7%9A%84payload-bin%E6%96%87%E4%BB%B6%E6%8F%90%E5%8F%96%E5%87%BA%E6%9D%A5%E3%80%82"><span class="toc-number">1.2.</span> <span class="toc-text">2.电脑上用解压缩软件把rom压缩包里面的payload.bin文件提取出来。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E4%B8%8B%E8%BD%BDpayload-dumper%E5%B7%A5%E5%85%B7%EF%BC%8C%E8%A7%A3%E5%8E%8B%EF%BC%8C%E6%8A%8Apayload-bin%E5%A4%8D%E5%88%B6%E5%88%B0payload-dumper%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84payload-input%E9%87%8C%E9%9D%A2%E3%80%82"><span class="toc-number">1.3.</span> <span class="toc-text">3.下载payload_dumper工具，解压，把payload.bin复制到payload_dumper目录下的payload_input里面。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8Cpayload-dumper-exe%E5%BC%80%E5%A7%8B%E8%B7%91%E4%BB%A3%E7%A0%81%E3%80%82"><span class="toc-number">1.4.</span> <span class="toc-text">运行payload_dumper.exe开始跑代码。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%80%90%E5%BF%83%E7%AD%89%E5%BE%85%E7%89%87%E5%88%BBpayload-output%E6%96%87%E4%BB%B6%E5%A4%B9%E5%B0%B1%E4%BC%9A%E5%87%BA%E7%8E%B0%E8%A7%A3%E5%8C%85%E5%A5%BD%E7%9A%84%E6%96%87%E4%BB%B6%EF%BC%8C%E7%84%B6%E5%90%8E%E6%88%91%E4%BB%AC%E6%8F%90%E5%8F%96%E9%87%8C%E9%9D%A2%E7%9A%84boot-img"><span class="toc-number">1.5.</span> <span class="toc-text">耐心等待片刻payload_output文件夹就会出现解包好的文件，然后我们提取里面的boot.img</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%89%8B%E6%9C%BA%E7%AB%AF%E9%9D%A2%E5%85%B7%E4%BF%AE%E8%A1%A5boot"><span class="toc-number">2.</span> <span class="toc-text">二、手机端面具修补boot</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%8A%8Aboot-img%E5%A4%8D%E5%88%B6%E5%88%B0%E6%89%8B%E6%9C%BA%E6%A0%B9%E7%9B%AE%E5%BD%95"><span class="toc-number">2.1.</span> <span class="toc-text">1.把boot.img复制到手机根目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85-%E9%9D%A2%E5%85%B7-%E5%B9%B6%E6%89%93%E5%BC%80%EF%BC%8C%E7%82%B9%E5%87%BB%E5%AE%89%E8%A3%85%E2%86%92%E9%80%89%E6%8B%A9%E5%B9%B6%E4%BF%AE%E8%A1%A5%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E2%86%92%E6%89%BE%E5%88%B0%E6%89%8B%E6%9C%BA%E4%B8%AD%E7%9A%84boot-img%E6%96%87%E4%BB%B6%E2%86%92%E5%BC%80%E5%A7%8B%E2%86%92%E7%AD%89%E5%BE%85%E4%BF%AE%E8%A1%A5%E5%AE%8C%E6%88%90%E7%84%B6%E5%90%8E%E4%BD%A0%E8%83%BD%E7%9C%8B%E5%88%B0%E4%BF%AE%E8%A1%A5%E5%90%8E%E7%9A%84%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%EF%BC%8C%E9%BB%98%E8%AE%A4%E8%B7%AF%E5%BE%84%E6%98%AF%E6%A0%B9%E7%9B%AE%E5%BD%95-x2F-Download-x2F-magisk-xxx-img"><span class="toc-number">2.2.</span> <span class="toc-text">2.手机安装 面具 并打开，点击安装→选择并修补一个文件→找到手机中的boot.img文件→开始→等待修补完成然后你能看到修补后的文件路径，默认路径是根目录&#x2F;Download&#x2F;magisk_xxx.img</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%89%BE%E5%88%B0%E4%BF%AE%E8%A1%A5%E5%A5%BD%E7%9A%84boot%E6%96%87%E4%BB%B6%E5%B9%B6%E7%A7%BB%E5%8A%A8%E5%88%B0%E7%94%B5%E8%84%91%E6%A1%8C%E9%9D%A2%E3%80%82"><span class="toc-number">2.3.</span> <span class="toc-text">3.找到修补好的boot文件并移动到电脑桌面。</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%94%B5%E8%84%91%E7%AB%AF%E5%88%B7%E5%85%A5boot-img"><span class="toc-number">3.</span> <span class="toc-text">三、电脑端刷入boot.img</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%89%8B%E6%9C%BA%E5%85%B3%E6%9C%BA%EF%BC%8C%E6%8C%89%E4%BD%8F%E9%9F%B3%E9%87%8F%E5%87%8F%E5%92%8C%E7%94%B5%E6%BA%90%E9%94%AE%E8%BF%9B%E5%85%A5fastboot%E6%A8%A1%E5%BC%8F%EF%BC%8C%E7%84%B6%E5%90%8E%E8%BF%9E%E6%8E%A5%E7%94%B5%E8%84%91"><span class="toc-number">3.1.</span> <span class="toc-text">1.手机关机，按住音量减和电源键进入fastboot模式，然后连接电脑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%B8%8B%E8%BD%BD%E4%B8%80%E9%94%AE%E5%88%B7%E5%85%A5%E5%B7%A5%E5%85%B7%E5%8C%85%E6%89%93%E5%BC%80%E8%A7%A3%E5%8E%8B%E3%80%82"><span class="toc-number">3.2.</span> <span class="toc-text">2.下载一键刷入工具包打开解压。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%8A%8A%E4%BF%AE%E8%A1%A5%E5%A5%BD%E7%9A%84boot%E6%96%87%E4%BB%B6%E6%94%B9%E5%90%8D1-img%E5%A4%8D%E5%88%B6%E5%88%B0%E8%A7%A3%E5%8E%8B%E5%A5%BD%E7%9A%84%E5%B7%A5%E5%85%B7%E5%8C%85%E7%9B%AE%E5%BD%95%E9%87%8C%E9%9D%A2%E3%80%82"><span class="toc-number">3.3.</span> <span class="toc-text">3.把修补好的boot文件改名1.img复制到解压好的工具包目录里面。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E8%BF%90%E8%A1%8C%E4%B8%80%E9%94%AE%E5%88%B7%E5%85%A5boot-bat%E3%80%82"><span class="toc-number">3.4.</span> <span class="toc-text">4.运行一键刷入boot.bat。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%8C%89%E7%85%A7%E7%AA%97%E5%8F%A3%E6%8F%90%E7%A4%BA%E5%88%B7%E5%85%A5boot-img%EF%BC%8C%E9%87%8D%E5%90%AF-ok"><span class="toc-number">3.5.</span> <span class="toc-text">5.按照窗口提示刷入boot.img，重启,ok</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/10/18/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" title="测试文章"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="测试文章"/></a><div class="content"><a class="title" href="/2022/10/18/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" title="测试文章">测试文章</a><time datetime="2022-10-18T15:42:51.000Z" title="发表于 2022-10-18 23:42:51">2022-10-18</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2022/10/18/hello-world/" title="Hello World">Hello World</a><time datetime="2022-10-18T13:52:12.177Z" title="发表于 2022-10-18 21:52:12">2022-10-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/18/HTML-html/" title="HTML"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML"/></a><div class="content"><a class="title" href="/2022/10/18/HTML-html/" title="HTML">HTML</a><time datetime="2022-10-18T07:13:15.957Z" title="发表于 2022-10-18 15:13:15">2022-10-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/16/Note%20For%20LanqiaoYunke-noteforlanqiaoyunke/" title="Note For LanqiaoYunke"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Note For LanqiaoYunke"/></a><div class="content"><a class="title" href="/2022/10/16/Note%20For%20LanqiaoYunke-noteforlanqiaoyunke/" title="Note For LanqiaoYunke">Note For LanqiaoYunke</a><time datetime="2022-10-16T13:16:30.765Z" title="发表于 2022-10-16 21:16:30">2022-10-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/15/%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83-%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83/" title="文件字符分布"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="文件字符分布"/></a><div class="content"><a class="title" href="/2022/10/15/%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83-%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E5%88%86%E5%B8%83/" title="文件字符分布">文件字符分布</a><time datetime="2022-10-15T06:31:42.048Z" title="发表于 2022-10-15 14:31:42">2022-10-15</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Liang</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/fishes.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="富强,民主,文明,和谐,爱国,敬业,诚信,友善,自由,平等,公正,法治" data-fontsize="15px" data-random="true" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
