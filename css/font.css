@@ -22,4 +22,19 @@ body {
     background:transparent;
 }
 
+/* 首页 卡片文章背景透明 */
+#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{
+    /* 白色透明度 */
+    background: rgba(255,255,255,.8);
+}
+
+/* 侧边栏设置 */
+#aside-content>.card-widget,.sticky_layout>.card-widget{
+    /* 白色透明度 */
+    background: rgba(255,255,255,.8) !important;
+}
+
+
+
+
 
