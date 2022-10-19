@@ -1,0 +1,25 @@
+
+  @font-face{
+    font-family: 'meiren';
+    
+    src: url('/font/meiren.ttf') format("truetype");
+}
+
+body {
+    font-family: 'meiren';
+}
+
+#web_bg {
+    /* 背景图地址 */
+    background: url(/img/background.png);
+    /* 平铺 */
+    background-repeat: no-repeat;
+    /* 背景图大小 */
+    background-size: cover;
+}
+
+#footer{
+    background:transparent;
+}
+
+
