@@ -47,7 +47,7 @@ body {
 
 #web_bg {
     /* 背景图地址 */
-    background: url(/img/background.png);
+    background: url(http://liang20221019.test.upcdn.net/background.png);
     /* 平铺 */
     background-repeat: no-repeat;
     /* 背景图大小 */
